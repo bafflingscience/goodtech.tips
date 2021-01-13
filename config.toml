@@ -7,31 +7,39 @@ enableEmojify = true
 
 # Taxonomy
 [taxonomies]
-  tag = "tags"
   category = "categories"
-  note = "notes"
+  tag = "tags"
 
 # Main Menu
     [[menu.main]]
         identifier = "blog"
         name = "blog"
-        pre = "<i class='fa fa-heart'></i>"
         url = "/posts/"
         weight = 10
+    [[main.menu]]
+        identifier = "censorship"
+        name = "censorship"
+        url = "/censorship/"
+        weight = 20
+    [[menu.main]]
+        identifier = "archive"
+        name = "archive"
+        url = "/archive/"
+        weight = 60
     [[menu.main]]
         identifier = "boobs+"
         name = "boobs+"
         url = "/boobs+/"
-        weight = 20
-    [[main.menu]]
-        identifier = "tags"
-        name = "tags"
-        url = "/tags/"
         weight = 30
     [[main.menu]]
+        identifier = "tag"
+        name = "tags"
+        url = "/tags/"
+        weight = 50
+    [[main.menu]]
         identifier = "notes"
-        name = "theNotes_Collection"
-        url = "/posts/notes/"
+        name = "notes"
+        url = "/notes/"
         weight = 40
 
 # PaperMod Theme - Home Mode 

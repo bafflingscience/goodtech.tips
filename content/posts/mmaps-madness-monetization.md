@@ -42,6 +42,11 @@ Design a video tube website featuring embedded videos from other porn sites. You
 
 ![img](https://cdn-images-1.medium.com/max/906/1*E7ajhr3AJ9VJVPiuqL8lbQ.png)MindMap of Ad Networks and Adult Content Monetization via Niche Fetish Websites
 
-Yadayadayada…
+This ad network, content monetization stuff is mysterious and baffling to me.
+I guess I'll just mow grass or bag groceries for now.
 
-### The End
+Sorry I couldn't be more helpful.
+
+Maybe I'll figure it out?
+Maybe not.
+
