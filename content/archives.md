@@ -1,6 +1,12 @@
 ---
-title: "Archive"
-layout: "archives"
+title: Archive
+layout: archives
 url: "/archive"
-summary: "archive"
+summary: archive
+menu:
+  main:
+    name: archive
+    weight: 2
+draft: true
+
 ---

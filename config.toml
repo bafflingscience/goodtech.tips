@@ -1,6 +1,7 @@
 baseURL = "https://example.org/"
+enableEmojify = true
+enableInlineShortcodes = true
 languageCode = "en-us"
-title = "e n d . o f . d A v e s"
 theme = "hugo-PaperMod"
 enableInlineShortcodes = true
 enableEmojify = true
@@ -42,11 +43,9 @@ enableEmojify = true
         url = "/notes/"
         weight = 40
 
-# PaperMod Theme - Home Mode 
 [params.homeInfoParams]
-Title = "Welcome 🌐"
 Content = "This is a blog site with lots of useful information about how to do different things on your computer."
-
+Title = "Welcome 🌐"
 [[params.socialIcons]]
 name = "dev"
 url = "https://dev.to/bafflingscience"
@@ -71,27 +70,28 @@ url = "soundcloud.com"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:thedavidsofusa@gmail.com"
-
-# Privacy Settings
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = false
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = false
-  [privacy.instagram]
-    disable = false
-    simple = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.vimeo]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = false
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+anonymizeIP = false
+disable = false
+respectDoNotTrack = true
+useSessionStorage = false
+[privacy.instagram]
+disable = false
+simple = false
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = false
+enableDNT = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = false
+[taxonomies]
+category = "categories"
+note = "notes"
+tag = "tags"
