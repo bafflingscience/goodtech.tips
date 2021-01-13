@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on e n d . o f . d A v e s</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on e n d . o f . d A v e s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>affiliate marketing</title>
+      <link>https://example.org/tags/affiliate-marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/affiliate-marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content creator</title>
+      <link>https://example.org/tags/content-creator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/content-creator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how to make money</title>
+      <link>https://example.org/tags/how-to-make-money/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/how-to-make-money/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monetization</title>
+      <link>https://example.org/tags/monetization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/monetization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>online marketing</title>
+      <link>https://example.org/tags/online-marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/online-marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>passive income</title>
+      <link>https://example.org/tags/passive-income/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/passive-income/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
