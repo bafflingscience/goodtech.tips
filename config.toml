@@ -1,44 +1,33 @@
 baseURL = "https://example.org/"
-languageCode = "en-us"
-title = "e n d . o f . d A v e s"
-theme = "hugo-PaperMod"
-enableInlineShortcodes = true
 enableEmojify = true
-
-# Taxonomy
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  note = "notes"
-
-# Main Menu
-    [[menu.main]]
-        identifier = "blog"
-        name = "blog"
-        pre = "<i class='fa fa-heart'></i>"
-        url = "/posts/"
-        weight = 10
-    [[menu.main]]
-        identifier = "boobs+"
-        name = "boobs+"
-        url = "/boobs+/"
-        weight = 20
-    [[main.menu]]
-        identifier = "tags"
-        name = "tags"
-        url = "/tags/"
-        weight = 30
-    [[main.menu]]
-        identifier = "notes"
-        name = "theNotes_Collection"
-        url = "/posts/notes/"
-        weight = 40
-
-# PaperMod Theme - Home Mode 
+enableInlineShortcodes = true
+languageCode = "en-us"
+theme = "hugo-PaperMod"
+title = "e n d . o f . d A v e s"
+[[main.menu]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 30
+[[main.menu]]
+identifier = "notes"
+name = "theNotes_Collection"
+url = "/posts/notes/"
+weight = 40
+[[menu.main]]
+identifier = "boobs+"
+name = "boobs+"
+url = "/boobs+/"
+weight = 3
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+pre = "<i class='fa fa-heart'></i>"
+url = "/posts/"
+weight = 1
 [params.homeInfoParams]
-Title = "Welcome 🌐"
 Content = "This is a blog site with lots of useful information about how to do different things on your computer."
-
+Title = "Welcome 🌐"
 [[params.socialIcons]]
 name = "dev"
 url = "https://dev.to/bafflingscience"
@@ -63,27 +52,28 @@ url = "soundcloud.com"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:thedavidsofusa@gmail.com"
-
-# Privacy Settings
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = false
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = false
-  [privacy.instagram]
-    disable = false
-    simple = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.vimeo]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = false
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+anonymizeIP = false
+disable = false
+respectDoNotTrack = true
+useSessionStorage = false
+[privacy.instagram]
+disable = false
+simple = false
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = false
+enableDNT = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = false
+[taxonomies]
+category = "categories"
+note = "notes"
+tag = "tags"
