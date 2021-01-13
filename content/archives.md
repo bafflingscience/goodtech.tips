@@ -7,5 +7,6 @@ menu:
   main:
     name: archive
     weight: 2
+draft: true
 
 ---
