@@ -89,7 +89,3 @@ simple = false
 [privacy.youtube]
 disable = false
 privacyEnhanced = false
-[taxonomies]
-category = "categories"
-note = "notes"
-tag = "tags"
