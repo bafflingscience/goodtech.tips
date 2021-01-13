@@ -3,8 +3,6 @@ enableEmojify = true
 enableInlineShortcodes = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
-enableInlineShortcodes = true
-enableEmojify = true
 
 # Taxonomy
 [taxonomies]
