@@ -1,8 +1,10 @@
 ---
+layout: blog
 title: "t i t t i e s 🌰🌰"
 date: 2021-01-08T01:17:21-05:00
 draft: true
 enableEmoji: true
+thumbnail: "/images/thatsantifa.png"
 params:
    ShowShareButtons: true
 tags: ["boobs", "breasts", "tits", "big boobs", "big breasts", "big tits", "titties", "big titties", "nice tits", "nice boobs", "nice breasts", "jugs", "knockers", "fun bags"]

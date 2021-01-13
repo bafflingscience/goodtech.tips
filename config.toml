@@ -1,7 +1,8 @@
 title = "e n d . o f . d A v e s"
 baseURL = "https://example.org/"
 enableEmojify = true
-enableInlineShortcodes = true
+#enableInlineShortcodes = true
+enableThumbnails = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
 # Taxonomy
@@ -18,7 +19,7 @@ theme = "hugo-PaperMod"
     [[main.menu]]
         identifier = "censorship"
         name = "censorship"
-        url = "/censorship/"
+        url = "/blog/censorship/"
         weight = 20
     [[menu.main]]
         identifier = "boobs+"
@@ -33,7 +34,7 @@ theme = "hugo-PaperMod"
     [[main.menu]]
         identifier = "notes"
         name = "notes"
-        url = "/notes/"
+        url = "/posts/notes/"
         weight = 40
 
 [params.homeInfoParams]

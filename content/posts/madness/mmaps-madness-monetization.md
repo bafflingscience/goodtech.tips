@@ -1,7 +1,9 @@
 ---
+layout: blog
 title: "Mind Maps, Madness & Monetizing Media Online in the Age of Despair"
 date: 2021-01-08T01:16:57-05:00
 draft: true
+thumbnail: "/images/thatsantifa.png"
 weight: 4
 tags: ["seo", "marketing", "advertising", "making money"]
 genres: ["deathcore"]
