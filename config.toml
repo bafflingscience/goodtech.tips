@@ -4,7 +4,6 @@ enableEmojify = true
 enableInlineShortcodes = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
-
 # Taxonomy
 [taxonomies]
   category = "categories"
