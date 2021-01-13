@@ -1,0 +1,89 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "e n d . o f . d A v e s"
+theme = "hugo-PaperMod"
+enableInlineShortcodes = true
+enableEmojify = true
+
+# Taxonomy
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  note = "notes"
+
+# Main Menu
+    [[menu.main]]
+        identifier = "blog"
+        name = "blog"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "boobs+"
+        name = "boobs+"
+        url = "/boobs+/"
+        weight = 20
+    [[main.menu]]
+        identifier = "tags"
+        name = "tags"
+        url = "/tags/"
+        weight = 30
+    [[main.menu]]
+        identifier = "notes"
+        name = "theNotes_Collection"
+        url = "/posts/notes/"
+        weight = 40
+
+# PaperMod Theme - Home Mode 
+[params.homeInfoParams]
+Title = "Welcome 🌐"
+Content = "This is a blog site with lots of useful information about how to do different things on your computer."
+
+[[params.socialIcons]]
+name = "dev"
+url = "https://dev.to/bafflingscience"
+[[params.socialIcons]]
+name = "pinterest"
+url = "https://www.pinterest.com/bafflingscience/"
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/prettynicecloud"
+[[params.socialIcons]]
+name = "github"
+url = "github.com/bafflingscience"
+[[params.socialIcons]]
+name = "codepen"
+url = "codepen.io"
+[[params.socialIcons]]
+name = "reddit"
+url = "https://www.reddit.com/user/hooksaw_lazrblade"
+[[params.socialIcons]]
+name = "soundcloud"
+url = "soundcloud.com"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:thedavidsofusa@gmail.com"
+
+# Privacy Settings
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false

@@ -1,0 +1,88 @@
+# Profile Page Tag and Archive Buttons
+  baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "e n d . o f . d A v e s"
+theme = "hugo-PaperMod"
+enableInlineShortcodes = true
+enableEmojify = true
+
+# Taxonomy
+[taxonomies]
+  tag = "tag"
+  category = "categories"
+  note = "notes"
+
+# Main Menu
+    [[menu.main]]
+        identifier = "blog"
+        name = "blog"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "boobs+"
+        name = "boobs+"
+        url = "/boobs+/"
+        weight = 20
+    [[main.menu]]
+        identifier = "tags"
+        name = "tags"
+        url = "/tags/"
+        weight = 30
+    [[main.menu]]
+        identifier = "theNotes_Collection"
+        name = "theNotes_Collection"
+        url = "/theNotes_Collection/"
+        weight = 40
+
+# PaperMod Theme - Home Mode 
+[params.homeInfoParams]
+Title = "Hi, welcome to Bloghorn Kleghorne"
+Content = "this is where blogs happen"
+[params.socialIcons]
+name = ["github", "dev"]
+url = ["github.com/", "dev.to/"]
+
+# PaperMod Theme - Profile Mode https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#profile-mode
+[params.profileMode]
+enabled = true
+title = "the best blog"
+subTitle = "on the internet"
+imageUrl = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hEyphTXympjHj8Tpa3c0SAHaFj%26pid%3DApi&f=1"
+imageTitle = "a man of virtue and integrity"
+imageWidth = "auto" #120
+imageHeight = "auto" #120
+ShowShareButtons = true
+
+  [[params.profileMode.buttonsbuttons]]
+    name = ["Blog", "Tags"]
+    url = ["/posts/", "/tags/"]
+
+      [socialIcons]
+        name = ["twitter", "stackoverflow", "codepen", "linkedin", "github"]
+        url =  ["https://twitter.com", "https://twitter.com", "https://stackoverflow.com",  "https://codepen.io",  "https://linkedin.com", "https://github.com/adityatelange/hugo-PaperMod"]
+
+# Privacy Settings
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
+

@@ -1,0 +1,15 @@
+.logo a:hover {
+    color: cornflowerblue;
+}
+.logo .logo-switches .theme-toggle a#theme-toggle:hover {
+    color:crimson;
+}
+.menu a:hover {
+    color: crimson;
+}
+
+/*
+.entry-header h2:hover {
+    color: cornflowerblue;
+}
+*/
