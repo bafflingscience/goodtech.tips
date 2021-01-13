@@ -1,14 +1,18 @@
 ---
-title: "Bash Scripting for Retards"
+title: "Bash Scripting for Absolutely Hopeless Fools"
+linktitle: "Bashes"
 date: 2021-01-08T01:17:21-05:00
 draft: true
+menu:
+   docs:
+      title: "How to Bash"
+      parent: "notes"
 enableEmoji: true
 showToc: true
+
 params:
    ShowShareButtons: true
 ---
-
-~ { Blorg do ZSH } ~ 
 
 {{< emoji ":thumbsup:" >}}
 
@@ -20,7 +24,7 @@ params:
 
 {{< emoji ":chart_with_upwards_trend:" >}}
 
-### Sc®'p†n
+### Sc®ip†n
 
 ## Create an Executable Shell Script
 
@@ -33,8 +37,10 @@ params:
 3. make your file findable by placing it in the $PATH.  
    first, check the $PATH with: 
    `echo $PATH` which will output something like: 
+   ```txt
    file/paths/where/computer/will/look/for/executable/files/:/usr/local/bin:
    /usr/bin/:each/path/in/$PATH/is/separated/by/a/colon:/usr/dev/opt
+   ```
 
 4. if you created your file and saved it here: 
    `~/Documents/filename.txt`, you will not be able to run 
@@ -42,40 +48,48 @@ params:
    variable $PATH and will not be found.
 
 5. find the location of an executable program with `which` 
-   and `type`: `which sudo` will output /usr/bin/sudo`
+   and type: 
+   ```bash
+   which sudo
+   ``` 
+   The Output will be something like: 
+   ```txt
+   /usr/bin/sudo
+   ```
     but if you use aliases, it is better to use the `type` 
    command: 
-   `type python3`
-
-> python3 is hashed (/usr/local/bin/python3)`  
+   ```bash
+   type python3
+   ```
+   Output:
+   ```bash
+   python3 is hashed (/usr/local/bin/python3)
+   ```
 
 6. add your file to $PATH by explicitly appending the 
    file's directory to $PATH:
-   `PATH=$PATH:/path/to/directory/where/file/lives/`
+   ```bash
+   PATH=$PATH:/path/to/directory/where/file/lives/
+   ```
 
-7. 7. think of $PATH like a street address: 
-      `/200/Main/St/Asheville/NC` without the address, there 
+7. You can think of `$PATH` like a street address: 
+      ```bash
+      /200/Main/St/Jacksonville/NC
+      ``` 
+      without the address, there 
       is no way for you to connect with your mail man.
       and what is life without the mail man? not much of a life at all. 
+![Alt](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.yp8SPRaFDa94mHIPXAkGDQHaFg%26pid%3DApi&f=1 "Mail Man with hands in the air, celebrating")
 
+---
 
+## A. [The File Selection Box](https://bash.cyberciti.biz/guide/The_file_selection_box)
 
-Bash Scripting Full Course 3 Hours 
+### Zenity GUI
 
-### 
+[GUI Scripting with Zenity](https://www.techrepublic.com/blog/linux-and-open-source/gui-scripting-with-zenity/)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e7BufAVwDiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-### channel: [linuxhunt](https://www.youtube.com/channel/UCHErB0TULAlldbhPMfBJ1Xg) [Video](https://youtu.be/e7BufAVwDiM)
-
-https://bash.cyberciti.biz/guide/The_file_selection_box
-
-## A. The File Selection Box
-
-https://linuxconfig.org/how-to-use-graphical-widgets-in-bash-scripts-with-zenity#h4-1-3-file-selection-widget
-
+[How to use graphical widgets in Bash Scripts with Zenity](https://linuxconfig.org/)
 ## Arguments & Variables - Positional Parameters
 
 List Home and Root directory
@@ -370,20 +384,13 @@ COUNT=10
 ```
 
 When using the Ascii Comparison Operators, the parameters of the conditional are formatted differently:
+To be continued.....
 
-```bash
+In the meantime, here's this:
 
-```
+### Bash Scripting Full Course 3 Hours   
 
-```bash
-
-```
-
-```bash
-
-```
-
-
+{{< youtube e7BufAVwDiM >}}
 
 ## 2-Redirect to file 
 

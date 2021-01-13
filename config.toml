@@ -3,28 +3,46 @@ enableEmojify = true
 enableInlineShortcodes = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
-title = "e n d . o f . d A v e s"
-[[main.menu]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 30
-[[main.menu]]
-identifier = "notes"
-name = "theNotes_Collection"
-url = "/posts/notes/"
-weight = 40
-[[menu.main]]
-identifier = "boobs+"
-name = "boobs+"
-url = "/boobs+/"
-weight = 3
-[[menu.main]]
-identifier = "blog"
-name = "blog"
-pre = "<i class='fa fa-heart'></i>"
-url = "/posts/"
-weight = 1
+enableInlineShortcodes = true
+enableEmojify = true
+
+# Taxonomy
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Main Menu
+    [[menu.main]]
+        identifier = "blog"
+        name = "blog"
+        url = "/posts/"
+        weight = 10
+    [[main.menu]]
+        identifier = "censorship"
+        name = "censorship"
+        url = "/censorship/"
+        weight = 20
+    [[menu.main]]
+        identifier = "archive"
+        name = "archive"
+        url = "/archive/"
+        weight = 60
+    [[menu.main]]
+        identifier = "boobs+"
+        name = "boobs+"
+        url = "/boobs+/"
+        weight = 30
+    [[main.menu]]
+        identifier = "tag"
+        name = "tags"
+        url = "/tags/"
+        weight = 50
+    [[main.menu]]
+        identifier = "notes"
+        name = "notes"
+        url = "/notes/"
+        weight = 40
+
 [params.homeInfoParams]
 Content = "This is a blog site with lots of useful information about how to do different things on your computer."
 Title = "Welcome 🌐"

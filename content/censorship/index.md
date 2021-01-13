@@ -1,15 +1,13 @@
 ---
 title: "The Information War is Here. If Censorship Wins, Freedom is Dead."
-date: 2021-01-10T23:32:41-05:00
+date: 2021-01-12T23:32:41-05:00
 draft: true
 weight: 1
 showToc: true
 tags: ["conservatives", "censorship", "communism", "big tech", "socialism", "right-wing", "right of center", "conservative news", "alternative news", "silent majority", "Donald Trump", "Donald Trump Jr", "Rush Limbaugh", "Pro Life", "Christian",  "MAGA", "fascism", "globalists", "cabal", "conspiracy", "YouTube alternative", "alt-tech", "free speech", "constitution", "Antifa", "BLM", "Black Lives Matter", "Mostly Peaceful Protests", "Riots", "Hypocricy", "protonmail", "vpn", "quit facebook", "quit twitter", "", "George Soros", "Alex Jones", "Tucker Carlson", "Ben Shapiro", "Gab", "Parler", "bitchute", "libertarian", "odysee.com", "lbry", "rumble", "quit apple", "quit google", "thepostmillenial", "2020 election", "election 2020", "hysteria", "crime", "gun control", "Hillary Clinton", "Joe Biden", "Kamala Harris", "bias", "fake news", "Andrew Cuomo", "CNN", "MSNBC", "Fox News"]
 ---
 
-
 ![Alt](/goneforlong.png)
-
 
 ## The Fix is In
 

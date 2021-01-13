@@ -1,4 +1,17 @@
+---
+title: "C# Notes for Complete Morons"
+date: 2021-01-12T20:22:59-05:00
+draft: true
+showToc: true
+menu:
+   docs:
+      title: "How to C#"
+      parent: "notes"
+---
+
 # C# Notes
+
+These notes were copied from Microsofts documentation while performing the exercises. 
 
 ## Strings and Variables
 ```c#
@@ -115,9 +128,10 @@ Console.WriteLine($"An examle of overflow: {what}");
 Notice that the answer is very close to the minimum (negative) integer. It's the same as `min + 2`. The addition operation **overflowed** the allowed values for integers. The answer is a very large negative number because an overflow "wraps around" from the largest possible integer value to the smallest.
 
 There are other numeric types with different limits and precision that you would use when the `int` type doesn't meet your needs. Let's explore those types of numbers next.
+
 ---
 
-## The `double` Type
+## The `double` type
 
 The `double` numeric type represents a double-precision floating point number. Those terms may be new to you.
 
@@ -168,6 +182,7 @@ You know that `0.3` is `3/10` and not exactly the same as `1/3`. Similarly, `0.3
 **Challenge**
 
 Try other calculations with large numbers, small numbers, multiplication, and division using the `double` type. Try more complicated calculations.
+
 ---
 
 ### Decimal Types
