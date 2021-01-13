@@ -1,10 +1,9 @@
+title = "e n d . o f . d A v e s"
 baseURL = "https://example.org/"
 enableEmojify = true
 enableInlineShortcodes = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
-enableInlineShortcodes = true
-enableEmojify = true
 
 # Taxonomy
 [taxonomies]
@@ -22,11 +21,6 @@ enableEmojify = true
         name = "censorship"
         url = "/censorship/"
         weight = 20
-    [[menu.main]]
-        identifier = "archive"
-        name = "archive"
-        url = "/archive/"
-        weight = 60
     [[menu.main]]
         identifier = "boobs+"
         name = "boobs+"
@@ -70,6 +64,8 @@ url = "soundcloud.com"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:thedavidsofusa@gmail.com"
+
+# Privacy Settings
 [privacy.disqus]
 disable = false
 [privacy.googleAnalytics]
@@ -91,7 +87,3 @@ simple = false
 [privacy.youtube]
 disable = false
 privacyEnhanced = false
-[taxonomies]
-category = "categories"
-note = "notes"
-tag = "tags"
