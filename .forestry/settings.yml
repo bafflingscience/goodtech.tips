@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: "/"
+admin_path: "public/admin"
 webhook_url: 
 sections:
 - type: directory
@@ -42,5 +42,5 @@ build:
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: hugo server -D --port 2753
+  instant_preview_command: hugo server -D --port 1313
 version: 0.79.0

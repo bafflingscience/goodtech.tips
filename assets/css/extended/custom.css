@@ -8,6 +8,9 @@
     color: crimson;
 }
 
+.first-entry {
+    margin: 0; /* var(--gap) 0 calc(var(--gap) * 2) 0*/
+}
 /*
 .entry-header h2:hover {
     color: cornflowerblue;

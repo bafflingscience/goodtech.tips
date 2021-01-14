@@ -1,5 +1,5 @@
 title = "e n d . o f . d A v e s"
-baseURL = "https://example.org/"
+baseURL = "https://davidclegg.dev/"
 enableEmojify = true
 enableInlineShortcodes = true
 enableThumbnails = true
@@ -38,32 +38,32 @@ theme = "hugo-PaperMod"
         weight = 40
 
 [params.homeInfoParams]
-Content = "This is a blog site with lots of useful information about how to do different things on your computer."
-Title = "Welcome 🌐"
-[[params.socialIcons]]
-name = "dev"
-url = "https://dev.to/bafflingscience"
-[[params.socialIcons]]
-name = "pinterest"
-url = "https://www.pinterest.com/bafflingscience/"
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/prettynicecloud"
-[[params.socialIcons]]
-name = "github"
-url = "github.com/bafflingscience"
-[[params.socialIcons]]
-name = "codepen"
-url = "codepen.io"
-[[params.socialIcons]]
-name = "reddit"
-url = "https://www.reddit.com/user/hooksaw_lazrblade"
-[[params.socialIcons]]
-name = "soundcloud"
-url = "soundcloud.com"
-[[params.socialIcons]]
-name = "email"
-url = "mailto:thedavidsofusa@gmail.com"
+Content = "Got a smoke?"
+Title = "Welcome to Earth 🌎"
+    [[params.socialIcons]]
+        name = "dev"
+        url = "https://dev.to/bafflingscience"
+    [[params.socialIcons]]
+        name = "pinterest"
+        url = "https://www.pinterest.com/bafflingscience/"
+    [[params.socialIcons]]
+        name = "twitter"
+        url = "https://twitter.com/prettynicecloud"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/bafflingscience"
+    [[params.socialIcons]]
+        name = "codepen"
+        url = "codepen.io"
+    [[params.socialIcons]]
+        name = "reddit"
+        url = "https://www.reddit.com/user/hooksaw_lazrblade"
+    [[params.socialIcons]]
+        name = "soundcloud"
+        url = "soundcloud.com"
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:thedavidsofusa@gmail.com"
 
 # Privacy Settings
 [privacy.disqus]

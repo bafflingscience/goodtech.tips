@@ -1,5 +1,5 @@
 ---
-title: "The Information War is Here. If Censorship Wins, Freedom is Dead."
+title: "The Information War"
 date: 2021-01-12T23:32:41-05:00
 draft: true
 weight: 1
