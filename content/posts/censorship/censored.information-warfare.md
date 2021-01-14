@@ -160,8 +160,3 @@ Townhall MEDIA
 
 News Facts Network is [looking for writers](https://newsfactsnetwork.com/writers-wanted/) who care about fact based articles.
 #### ***[Writers Wanted](https://newsfactsnetwork.com/writers-wanted/)***
-
-
-
-Stephan Czysch's [serp-keyword-scraper-plugin](https://www.stephan-czysch.de/serp-keyword-scraper-plugin/installed) is nice.
-       

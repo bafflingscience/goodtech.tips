@@ -1,12 +1,11 @@
 ---
-title: Archive
+title: theArchive_Collection
 layout: archives
 url: "/archive"
 summary: archive
 menu:
   main:
     name: archive
-    weight: 2
+    weight: 3
 draft: true
-
 ---

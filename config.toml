@@ -37,8 +37,13 @@ theme = "hugo-PaperMod"
         url = "/posts/notes/"
         weight = 40
 
+disqusShortname = "endofdaves"
+[params]
+  comments = true
+
+
 [params.homeInfoParams]
-Content = "Got a smoke?"
+Content = "Got a smoke? 🚬"
 Title = "Welcome to Earth 🌎"
     [[params.socialIcons]]
         name = "dev"

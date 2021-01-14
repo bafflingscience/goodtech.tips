@@ -6,9 +6,9 @@ draft: true
 enableEmoji: true
 params:
    ShowShareButtons: true
-tags: ["boobs", "breasts", "tits", "big boobs", "big breasts", "big tits", "titties", "big titties", "nice tits", "nice boobs", "nice breasts", "jugs", "knockers", "fun bags", NSFW, CSS, affiliate marketing, online marketing, marketing, seo, click to win, make money online, online money, monetization, e-commerce, ecommerce, websites, web design, boobs, titties, breasts, porn, online porn, make money with porn]
+tags: ["boobs", "breasts", "tits", "big boobs", "big breasts", "big tits", "titties", "big titties", "nice tits", "nice boobs", "nice breasts", "big ol boobies", "melons", "mammaries", "jugs", "knockers", "fun bags", NSFW, CSS, affiliate marketing, online marketing, marketing, seo, click to win, make money online, online money, monetization, e-commerce, ecommerce, websites, web design, boobs, titties, breasts, porn, online porn, make money with porn]
 ---
-![img](../boobstagram02.jpg)
+![img](../images/boobstagram02.jpg)
 
 ## More Boobs, less Politics
 {{< giphy PcFOvGTtegeEMAyRAO >}}
