@@ -11,7 +11,7 @@ menu:
 
 # C# Notes
 
-These notes were copied from Microsofts documentation while performing the exercises. 
+These notes were copied from Microsoft documentation while performing the exercises. 
 
 ## Strings and Variables
 ```c#
@@ -119,7 +119,7 @@ int min = int.MinValue;
 Console.WriteLine($"The range of integers is {min} to {max}");
 // The range of integers is -2147483648 to 2147483647
 ```
-If a calculation produces a value that excceeds those limits, you have an **underflow** or **overflow** condition. The answer appears to wrap from one limit to the other. Add these two lines to the interactive window to see an example.
+If a calculation produces a value that exceeds those limits, you have an **underflow** or **overflow** condition. The answer appears to wrap from one limit to the other. Add these two lines to the interactive window to see an example.
 ```c#
 int what = max + 3;
 Console.WriteLine($"An examle of overflow: {what}");
@@ -207,7 +207,7 @@ Console.WriteLine(c / d);
 // 0.333333333333333
 // 0.3333333333333333333333333333
 ```
-The `M` suffix on the numbers is how you indicate that a consttant should use the `decimal` type.
+The `M` suffix on the numbers is how you indicate that a constant should use the `decimal` type.
 
 Notice that the math using the decimal type has more digits to the right of the decimal point.
 

@@ -1,7 +1,7 @@
 ---
 title: "Use the `find` command to find files and folders"
-date: 2021-01-10T15:37:13-05:00
-draft: true
+date: 2021-01-13T12:37:13-05:00
+draft: false
 weight: 1
 enableEmoji: true
 enableToc: true
@@ -40,7 +40,7 @@ find all files starting with "word" and ending in ".txt" OR starting with "word"
 find . -name "word*.txt" -o -name "word*.md"
 ```
 
-## find files based on Multiple Paramaters
+## find files based on Multiple Parameters
 
 find all files in the current directory ending in '.jpg' OR '.png', but not if the file name starts with 'cover'
 ```
