@@ -50,22 +50,22 @@ Title = "Welcome Good Tech Tips 🌎"
         url = "https://dev.to/bafflingscience"
     [[params.socialIcons]]
         name = "pinterest"
-        url = "https://www.pinterest.com/bafflingscience/"
+        url = "https://www.pinterest.com"
     [[params.socialIcons]]
         name = "twitter"
-        url = "https://twitter.com/prettynicecloud"
+        url = "https://twitter.com"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/bafflingscience"
     [[params.socialIcons]]
         name = "rss"
-        url = "codepen.io"
+        url = "index.xml"
     [[params.socialIcons]]
         name = "reddit"
-        url = "https://www.reddit.com/user/hooksaw_lazrblade"
+        url = "https://www.reddit.com/user"
     [[params.socialIcons]]
         name = "soundcloud"
-        url = "soundcloud.com"
+        url = "https://soundcloud.com/thedavidsofusa"
     [[params.socialIcons]]
         name = "email"
         url = "mailto:thedavidsofusa@gmail.com"
