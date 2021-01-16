@@ -8,7 +8,7 @@ menu:
       title: "How to C-sharp"
       parent: "notes"
 categories: ["Technology", "Web Development", "How To"]
-tags: ["C#", "programming", "web development", ".NET", "Windows", "how-to", "coding", "learning", "self-taught"]
+tags: ["c-sharp", "programming", "web development", ".NET", "Windows", "how-to", "coding", "learning", "self-taught"]
 ---
 
 # C# Notes
