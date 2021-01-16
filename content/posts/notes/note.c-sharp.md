@@ -1,11 +1,11 @@
 ---
-title: "C# Notes for Complete Morons"
+title: "C-sharp Notes for Complete Morons"
 date: 2021-01-12T20:22:59-05:00
 draft: true
 showToc: true
 menu:
    docs:
-      title: "How to C#"
+      title: "How to C-sharp"
       parent: "notes"
 categories: ["Technology", "Web Development", "How To"]
 tags: ["C#", "programming", "web development", ".NET", "Windows", "how-to", "coding", "learning", "self-taught"]
