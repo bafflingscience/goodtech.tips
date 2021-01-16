@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+	Netlify on g o o d t e c h . t i p s
+	
+	</title>
+    <link>https://goodtech.tips/tags/netlify/</link>
+    <description>Recent content 
+	
+	in Netlify on g o o d t e c h . t i p s
+	</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+	
+	
+    <lastBuildDate>Sat, 16 Jan 2021 15:32:43 -0500</lastBuildDate>
+	
+    
+        <atom:link href="https://goodtech.tips/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
