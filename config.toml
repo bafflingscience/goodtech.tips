@@ -1,5 +1,5 @@
-title = "e n d . o f . d A v e s"
-baseURL = "https://davidclegg.dev/"
+title = "g o o d t e c h . t i p s"
+baseURL = "https://goodtech.tips"
 enableEmojify = true
 enableInlineShortcodes = true
 enableThumbnails = true
@@ -43,8 +43,8 @@ disqusShortname = "endofdaves"
   ShowShareButtons = true
 
 [params.homeInfoParams]
-Content = "North Carolina, USA"
-Title = "Welcome to Earth 🌎"
+Content = "Where the Tech Tips Are Good"
+Title = "Welcome Good Tech Tips 🌎"
     [[params.socialIcons]]
         name = "dev"
         url = "https://dev.to/bafflingscience"
