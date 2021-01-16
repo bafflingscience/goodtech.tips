@@ -11,7 +11,7 @@ categories: ["Technology", "Web Development", "How To"]
 tags: ["c-sharp", "programming", "web development", ".NET", "Windows", "how-to", "coding", "learning", "self-taught"]
 ---
 
-# C# Notes
+# C Sharp Notes
 
 These notes were copied from Microsoft documentation while performing the exercises. 
 
