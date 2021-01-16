@@ -1,7 +1,7 @@
 ---
 title: "Tech Lords and The Information War"
 date: 2021-01-13T23:32:41-05:00
-draft: false
+draft: true
 weight: 1
 showToc: true
 tags: ["news", "fake news", "media", "Donald Trump", "minds.com", "gab.com", "parler.com", "bitchute.com", "conservatives", "censorship", "communism", "big tech", "socialism", "right-wing", "right of center", "conservative news", "alternative news", "silent majority", "Donald Trump", "Donald Trump Jr", "Rush Limbaugh", "Pro Life", "Christian",  "MAGA", "fascism", "globalists", "cabal", "conspiracy", "YouTube alternative", "alt-tech", "free speech", "constitution", "Antifa", "BLM", "Black Lives Matter", "Mostly Peaceful Protests", "Riots", "Hypocricy", "protonmail", "vpn", "quit facebook", "quit twitter", "", "George Soros", "Alex Jones", "Tucker Carlson", "Ben Shapiro", "Gab", "Parler", "bitchute", "libertarian", "odysee.com", "lbry", "rumble", "quit apple", "quit google", "thepostmillenial", "2020 election", "election 2020", "hysteria", "crime", "gun control", "Hillary Clinton", "Joe Biden", "Kamala Harris", "bias", "fake news", "Andrew Cuomo", "CNN", "MSNBC", "Fox News"]
@@ -96,6 +96,8 @@ Really dig it.
 
 ---
 ## Alternative News Sources
+
+- [Just the News](https://justthenews.com)
 
 - [TheDonald.Win](https://thedonald.win)
 

@@ -1,10 +1,12 @@
 ---
-Title: "Embed a YouTube Video in your Hugo Blog Post." 
+Title: "Embed a YouTube Video in your Hugo Blog Post. A Tutorial for Dimwits" 
+date: 2021-01-14T12:37:13-05:00
 draft: false
 showTOC: false
 enableEmoji: true
 params:
    ShowShareButtons: true
+categories: ["Technology", "Web Development", "How To"]
 tags: ["Hugo", "static site generator", "static html", "html templates", "YouTube", "embed youtube", "web design", "embed code", "blog", "how-to", "Markdown", "shortcodes"]
 ---
 

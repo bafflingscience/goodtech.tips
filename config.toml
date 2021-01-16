@@ -5,6 +5,7 @@ enableInlineShortcodes = true
 enableThumbnails = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
+## https://section508.gov/content/guide-accessible-web-design-development
 # Taxonomy
 [taxonomies]
   category = "categories"
@@ -17,33 +18,32 @@ theme = "hugo-PaperMod"
         url = "/posts/"
         weight = 10
     [[main.menu]]
-        identifier = "censorship"
-        name = "censorship"
-        url = "/blog/censorship/"
+        identifier = "notes"
+        name = "notes"
+        url = "/posts/notes/"
         weight = 20
-    [[menu.main]]
-        identifier = "boobs+"
-        name = "boobs+"
-        url = "/boobs+/"
-        weight = 30
     [[main.menu]]
         identifier = "tag"
         name = "tags"
         url = "/tags/"
-        weight = 50
+        weight = 30
     [[main.menu]]
-        identifier = "notes"
-        name = "notes"
-        url = "/posts/notes/"
+        identifier = "categories"
+        name = "categories"
+        url = "/categories/"
         weight = 40
-
+  #  [[menu.main]]
+  #      identifier = "boobs+"
+  #      name = "boobs+"
+  #      url = "/boobs+/"
+  #      weight = 50
 disqusShortname = "endofdaves"
 [params]
   comments = true
-
+  ShowShareButtons = true
 
 [params.homeInfoParams]
-Content = "Got a smoke? 🚬"
+Content = "North Carolina, USA"
 Title = "Welcome to Earth 🌎"
     [[params.socialIcons]]
         name = "dev"
@@ -58,7 +58,7 @@ Title = "Welcome to Earth 🌎"
         name = "github"
         url = "https://github.com/bafflingscience"
     [[params.socialIcons]]
-        name = "codepen"
+        name = "rss"
         url = "codepen.io"
     [[params.socialIcons]]
         name = "reddit"

@@ -1,8 +1,9 @@
 ---
-title: "Find anything with `fzf` Command-line Fuzzy Finder"
+title: "The Very Stupid Person's Guide to `fzf` Command-line Fuzzy Finder"
 date: 2021-01-13T16:44:43-05:00
 draft: false
-tags: ["fzf", "terminal", "bash", "fuzzy", "wuzzy", "find", "linux", "mac", "windows"]
+categories: ["Technology", "Web Development", "How To"]
+tags: ["fzf", "terminal", "bash", "fuzzy", "wuzzy", "find", "linux", "mac", "windows", "stupid"]
 ---
 
 # get fuzzy with `fzf`
@@ -13,4 +14,4 @@ One of the most useful tools that I have found is [fzf](https://github.com/juneg
 
 It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc.
 
-That's all!
+That's all for now.

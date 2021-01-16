@@ -1,15 +1,33 @@
+.list {
+    background-image: var(--linnybg)
+}
+
 .logo a:hover {
-    color: #84dcc6;
+    color: var(--logohov)
 }
 .logo .logo-switches .theme-toggle a#theme-toggle:hover {
-    color: #ff686b;
+    color: var(--themetoggler)
 }
 .menu a:hover {
     color: #ff686b;
 }
+
 .menu .active {
     font-weight: 500;
-    border-bottom: 4px solid #b1ede8;
+    border-bottom: 4px solid #84dcc6;
+}
+
+#top {
+    background-image: var(--linnybg)
+}
+
+.post-content a:hover {
+    color: var(--postlinkshov)
+}
+
+.post-content a {
+    box-shadow: none;
+    color: var(--postlinks)
 }
 
 .first-entry {
@@ -20,15 +38,19 @@
     margin-bottom: 24px;
 }
 
-main.main header.page-header h1:hover {
-    color: #84dcc6;
+main.main header.page-header h1 {
+    color: var(--entryhead)
 }
 
-article.post-entry header.entry-header h2:hover {
-    color: #ff686b;
-}
+main article.post-entry:hover {
+    background-color: var(--entryhead);
+    transition: transform .5s;
 
+}
 
 article.post-entry:hover {
-    background-color: #93acb5;
+    transition: transform .5s;
+    /*background-color: var(--entryhov)*/
+    background-image: var(--entryhov)
+    /*background-color: #93acb5;*/
 }

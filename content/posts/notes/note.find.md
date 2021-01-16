@@ -1,5 +1,5 @@
 ---
-title: "Use the `find` command to find files and folders"
+title: "Use the `find` command to find files and folders. The Unintelligent Moron Version."
 date: 2021-01-13T12:37:13-05:00
 draft: false
 weight: 1
@@ -7,6 +7,7 @@ enableEmoji: true
 enableToc: true
 params:
    ShowShareButtons: true
+categories: ["Technology", "Web Development", "How To"]
 tags: ["bash", "zsh", "terminal", "linux", "macOS", "wsl", "debian", "find", "terminal commands", "programming", "how-to", "learn to code", "self-taught", "autodidact", "web development", "system admin", "fzf", "jdupes", "alan resnick", "put it on your desktop"]
 ---
 

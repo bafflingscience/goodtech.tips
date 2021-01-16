@@ -11,6 +11,7 @@ enableEmoji: true
 showToc: true
 params:
    ShowShareButtons: true
+categories: ["Technology", "Web Development", "How To"]
 tags: ["bash", "terminal", "shell", "linux", "unix", "bash scripting", "chmod", "executable", "sudo", "$PATH", "echo", "how to"]
 ---
 

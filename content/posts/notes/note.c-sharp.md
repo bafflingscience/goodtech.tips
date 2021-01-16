@@ -7,6 +7,8 @@ menu:
    docs:
       title: "How to C#"
       parent: "notes"
+categories: ["Technology", "Web Development", "How To"]
+tags: ["C#", "programming", "web development", ".NET", "Windows", "how-to", "coding", "learning", "self-taught"]
 ---
 
 # C# Notes
