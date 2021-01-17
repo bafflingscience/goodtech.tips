@@ -1,7 +1,7 @@
 ---
-title: "theNotes_Collection"
+title: "tech_Notes"
 layout: "notes"
 url: "/notes/"
-summary: "notes"
+summary: "how to tech city usa"
 weight: 1
 ---

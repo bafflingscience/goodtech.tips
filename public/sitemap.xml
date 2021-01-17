@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://goodtech.tips/posts/notes/note.bash-scripting/</loc>
+    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://goodtech.tips/posts/censorship/censored.information-warfare/</loc>
     <lastmod>2021-01-13T23:32:41-05:00</lastmod>
   </url>
@@ -263,12 +268,12 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/censorship/fixing-social-media/</loc>
+    <loc>https://goodtech.tips/posts/censorship/</loc>
     <lastmod>2021-01-14T19:31:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/censorship/</loc>
+    <loc>https://goodtech.tips/posts/censorship/fixing-social-media/</loc>
     <lastmod>2021-01-14T19:31:22-05:00</lastmod>
   </url>
   
@@ -423,11 +428,6 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.bash-scripting/</loc>
-    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goodtech.tips/tags/chmod/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
   </url>
@@ -464,6 +464,11 @@
   
   <url>
     <loc>https://goodtech.tips/tags/unix/</loc>
+    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/zsh/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
   </url>
   
@@ -898,11 +903,6 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/tags/zsh/</loc>
-    <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goodtech.tips/tags/.net/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
   </url>
@@ -1080,6 +1080,10 @@
   <url>
     <loc>https://goodtech.tips/tags/websites/</loc>
     <lastmod>2021-01-08T01:17:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/contact/</loc>
   </url>
   
   <url>

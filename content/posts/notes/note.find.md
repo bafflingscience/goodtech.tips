@@ -1,5 +1,5 @@
 ---
-title: "Use the `find` command to find files and folders. The Unintelligent Moron Version."
+title: "Using the `find` command to find files and folders, for low IQ individuals"
 date: 2021-01-13T12:37:13-05:00
 draft: false
 weight: 1

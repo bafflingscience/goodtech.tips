@@ -1,6 +1,5 @@
 ---
-title: "Bash Scripting for Absolutely Hopeless Fools"
-linktitle: "Bashes"
+title: "Bash Scripting for Utterly Hopeless Fools"
 date: 2021-01-14T01:17:21-05:00
 draft: false
 menu:
@@ -11,8 +10,9 @@ enableEmoji: true
 showToc: true
 params:
    ShowShareButtons: true
+weight: 1
 categories: ["Technology", "Web Development", "How To"]
-tags: ["bash", "terminal", "shell", "linux", "unix", "bash scripting", "chmod", "executable", "sudo", "$PATH", "echo", "how to"]
+tags: ["bash", "terminal", "shell", "linux", "unix", "bash scripting", "chmod", "executable", "sudo", "$PATH", "echo", "how to", "zsh"]
 ---
 
 {{< emoji ":thumbsup:" >}}

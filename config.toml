@@ -32,6 +32,11 @@ theme = "hugo-PaperMod"
         name = "categories"
         url = "/categories/"
         weight = 40
+    [[main.menu]]
+        identifier = "contact"
+        name = "contact"
+        url = "/contact/"
+        weight = 50
   #  [[menu.main]]
   #      identifier = "boobs+"
   #      name = "boobs+"
@@ -43,9 +48,13 @@ disqusShortname = "endofdaves"
   comments = true
   ShowShareButtons = true
 
+[params.netlify]
+    honeypot = true
+    recaptcha = true
+
 [params.homeInfoParams]
 Content = "Where the Tech Tips Are Good"
-Title = "Welcome Good Tech Tips 🌎"
+Title = "Welcome to Good Tech Tips 🌎"
     [[params.socialIcons]]
         name = "dev"
         url = "https://dev.to/bafflingscience"

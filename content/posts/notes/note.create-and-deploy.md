@@ -1,5 +1,5 @@
 ---
-title: "Create and Deploy a Website with Hugo, Epik, and Netlify"
+title: "Create, Host, and Deploy a Website with Hugo, Epik, and Netlify"
 date: 2021-01-16T15:32:43-05:00
 draft: true
 categories: ["Technology", "Web Development", "How To"]

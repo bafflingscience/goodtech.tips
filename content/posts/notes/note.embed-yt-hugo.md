@@ -1,5 +1,5 @@
 ---
-Title: "Embed a YouTube Video in your Hugo Blog Post. A Tutorial for Dimwits" 
+Title: "Embed a YouTube Video in your Hugo Blog Post. A Guide for the Simple Minded" 
 date: 2021-01-14T12:37:13-05:00
 draft: false
 showTOC: false

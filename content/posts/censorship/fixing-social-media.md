@@ -2,7 +2,7 @@
 title: "Fixing Social Media"
 date: 2021-01-14T19:31:22-05:00
 draft: false
-tag: ["peertube", "pleroma", "twitter alternative", "facebook alternative", "free speech", "free speech tech", "alt-tech", "youtube", "big tech", "censorship"]
+tag: ["peertube", "pleroma", "twitter alternative", "facebook alternative", "free speech", "free speech tech", "alt-tech", "youtube", "big tech", "censorship", "stable genius"]
 ---
 
 

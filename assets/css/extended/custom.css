@@ -8,6 +8,11 @@
 .logo .logo-switches .theme-toggle a#theme-toggle:hover {
     color: var(--themetoggler)
 }
+
+.menu a {
+    font-size: 20px;
+}
+
 .menu a:hover {
     color: #ff686b;
 }
@@ -56,22 +61,6 @@ article.post-entry:hover {
 }
 
 :root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 60px;
-    --footer-height: 60px;
-    --radius: 8px;
-    --theme: #fff;
-    --entry: #fff;
-    --primary: rgba(0, 0, 0, 0.88);
-    --secondary: rgba(0, 0, 0, 0.56);
-    --tertiary: rgba(0, 0, 0, 0.16);
-    --content: rgba(0, 0, 0, 0.88);
-    --hljs-bg: #1c1d21;
-    --code-bg: #f5f5f5;
-    --border: #eee;
     --entryhov: #84dcc6;
     --entryhovgrady: linear-gradient(360deg,  hsl(359, 70%, 70%), rgba(44, 157, 129, 50%));
     --entryhead: linear-gradient(to right, hsla(341, 91%, 68%, 0, 6) 90%, hsla(165, 56%, 69%, 0, 6) 48%);
@@ -85,15 +74,6 @@ article.post-entry:hover {
 
 
 .dark {
-    --theme: #1d1e20;
-    --entry: #2e2e33;
-    --primary: rgba(255, 255, 255, 0.84);
-    --secondary: rgba(255, 255, 255, 0.56);
-    --tertiary: rgba(255, 255, 255, 0.16);
-    --content: rgba(255, 255, 255, 0.64);
-    --hljs-bg: #2e2e33;
-    --code-bg: #37383e;
-    --border: #5b5d67;
     --entryhov: #2C9D81;
     --entryhovgrady: linear-gradient(180deg, #2C9D81, #ff686b);
     --entryhead: linear-gradient(to right, hsla(341, 91%, 68%, 0, 6) 90%, hsla(165, 56%, 69%, 0, 6) 48%);

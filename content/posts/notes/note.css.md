@@ -1,5 +1,5 @@
 ---
-title: "Styling your website with Gradients"
+title: "Styling with CSS Gradients, for Dads with No Style"
 date: 2021-01-16T15:24:55-05:00
 draft: true
 categories: ["Technology", "Web Development", "How To"]
