@@ -39,6 +39,7 @@ theme = "hugo-PaperMod"
   #      weight = 50
 disqusShortname = "endofdaves"
 [params]
+  description = "Tech Tips that are good."
   comments = true
   ShowShareButtons = true
 
