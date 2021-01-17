@@ -7,6 +7,7 @@ enableRobotsTXT = true
 languageCode = "en-us"
 theme = "hugo-PaperMod"
 ## https://section508.gov/content/guide-accessible-web-design-development
+
 # Taxonomy
 [taxonomies]
   category = "categories"

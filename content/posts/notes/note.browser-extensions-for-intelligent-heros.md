@@ -14,7 +14,8 @@ With DuckDuckGo default address bar search, you can prepend with
 
 ## My Firefox Plugins
 *I realized while making this list that I may have an issue with add-on hoarding*
-### [LastPass](https://lastpass.com/)
+### 
+[LastPass](https://lastpass.com){:target="_blank"}
 
 LastPass puts you in control of your online life – making it easy to keep your critical information safe and secure so you can access it whenever you want, wherever you are. Save all your passwords, addresses, credit cards and more in your secure vault and LastPass will automatically fill in your information when you need it.
 
@@ -41,13 +42,13 @@ Simplify your life:
 
 ---
 
-### [AdBlocker for YouTube](https://mybrowseraddon.com/adblocker-for-youtube.htm)
+### [AdBlocker for YouTube](https://mybrowseraddon.com/adblocker-for-youtube.htm){:target="_blank"}
 
 AdBlocker for YouTube™ removes all annoying ads from YouTube.
 
 ---
 
-### [ClearURLs](https://gitlab.com/KevinRoebert/ClearUrls)
+### [ClearURLs](https://gitlab.com/KevinRoebert/ClearUrls){:target="_blank"}
     
 This extension will automatically remove tracking elements from URLs to help protect your privacy when browsing through the Internet.
 
@@ -81,7 +82,7 @@ Prevents Yandex from rewriting the search results (to include tracking elements)
 
 ---
 
-### [DarkReader](https://darkreader.org/)
+### [DarkReader](https://darkreader.org/){:target="_blank"}
 
 This eye-care extension enables night mode creating dark themes for websites on the fly. Dark Reader inverts bright colors making them high contrast and easy to read at night.
 
@@ -91,7 +92,7 @@ Dark Reader doesn't show ads and doesn't send user's data anywhere. It is fully 
 
 ---
 
-### [DuckDuckGo Privacy Essentials](https://duckduckgo.com/app)
+### [DuckDuckGo Privacy Essentials](https://duckduckgo.com/app){:target="_blank"}
 
 Privacy, simplified.
 
@@ -106,7 +107,7 @@ Decode Privacy — each site you visit gets a Privacy Grade (A-F) so you can see
 
 ---
 
-### [FireFox Relay](https://mozilla.com)
+### [FireFox Relay](https://mozilla.com){:target="_blank"}
 
 We all make many online accounts, but most of them are linked to just one or two email addresses. This means if just one account is hacked, every account using the same email address is also at risk.
 
@@ -114,7 +115,7 @@ Firefox Relay helps you protect your real email address - the one most closely t
 
 ---
 
-### [Tabliss](https://tabliss.io)
+### [Tabliss](https://tabliss.io){:target="_blank"}
 
 Transform your new tab page beautiful and yours. Tabliss offers hundreds of customisation options to create a new tab page that unique to you. Choose from many background providers, and be rewarded with stunning, new pictures every time you open a new tab. Add your favourite widgets from our large collection for an extra touch. Create your own new tab experience.
 
@@ -142,12 +143,12 @@ Widgets
    - Search box with Google, Bing, DuckDuckGo and more
    - Quick links/Speed dial for your favourite websites
    - Weather forecasts and alerts
-   - Daily inspiring (or not, there's categories) quotes
+   - Daily inspiring (or not, there's categories){:target="_blank"} quotes
    - Custom CSS for style tweaking
 
 ---
 
-### [OneTab](http://www.one-tab.com)
+### [OneTab](http://www.one-tab.com){:target="_blank"}
 
 Whenever you find yourself with too many tabs, click the OneTab icon to convert all of your tabs into a list. When you need to access the tabs again, you can either restore them individually or all at once.
 
@@ -169,7 +170,7 @@ A: OneTab is the quickest way, with only one click, to store all of your open ta
 
 ---
 
-### [Bypass Paywalls Clean](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean)
+### [Bypass Paywalls Clean](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean){:target="_blank"}
 
 
 Add-on allows you to read articles from websites that implement a paywall.
@@ -181,7 +182,7 @@ Notice: if you use this add-on regularly on the same website, please consider pa
 
 ---
 
-### [Forget Me Not](https://github.com/Lusito/forget-me-not/) Forget Cookies & Other Data
+### [Forget Me Not](https://github.com/Lusito/forget-me-not/){:target="_blank"} Forget Cookies & Other Data
 
 This web-extension deletes data websites store in the browser in the following situations:
 
@@ -190,14 +191,14 @@ Cookies
 Local-Storage (Firefox 58+ only)
 History & Downloads
 This can be delayed in seconds
-Different cleanup types can be applied (see the help page within the add-on for a more detailed description)
+Different cleanup types can be applied (see the help page within the add-on for a more detailed description){:target="_blank"}
 Never: No cleaning.
 On Startup: Clean only on browser start.
 On Leave: Clean on domain leave and on browser start.
 Instantly: Prevent data from being set, if possible. Otherwise behave like On Leave.
 When the browser starts:
-Cookies (optionally only when not whitelisted)
-Local Storage (optionally only when not whitelisted on Firefox 58+)
+Cookies (optionally only when not whitelisted){:target="_blank"}
+Local Storage (optionally only when not whitelisted on Firefox 58+){:target="_blank"}
 History
 Downloads
 Form Data
@@ -215,7 +216,7 @@ Manually clean the above
 
 ---
 
-### [HTTPS Everywhere](https://www.eff.org/https-everywhere)
+### [HTTPS Everywhere](https://www.eff.org/https-everywhere){:target="_blank"}
 
 Many sites on the web offer some limited support for encryption over HTTPS, but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site.
 
@@ -223,15 +224,15 @@ The HTTPS Everywhere extension fixes these problems by rewriting all requests to
 
 ---
 
-### [Multi-Account Containers](https://github.com/mozilla/multi-account-containers#readme)
+### [Multi-Account Containers](https://github.com/mozilla/multi-account-containers#readme){:target="_blank"}
 
 The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email! Here is a quick video showing you how it works.
 
 Under the hood, it separates website storage into tab-specific Containers. Cookies downloaded by one Container are not available to other Containers. With the Firefox Multi-Account Containers extension, you can...
 
 Sign in to two different accounts on the same site (for example, you could sign in to work email and home email in two different Container tabs.
-Keep different kinds of browsing far away from each other (for example, you might use one Container tab for managing your Checking Account and a different Container tab for searching for new songs by your favorite band)
-Avoid leaving social-network footprints all over the web (for example, you could use a Container tab for signing in to a social network, and use a different tab for visiting online news sites, keeping your social identity separate from tracking scripts on news sites)
+Keep different kinds of browsing far away from each other (for example, you might use one Container tab for managing your Checking Account and a different Container tab for searching for new songs by your favorite band){:target="_blank"}
+Avoid leaving social-network footprints all over the web (for example, you could use a Container tab for signing in to a social network, and use a different tab for visiting online news sites, keeping your social identity separate from tracking scripts on news sites){:target="_blank"}
 
 
 After installing the Firefox Multi-Account Containers extension, click the Containers icon to edit your Containers. Change their colors, names, and icons. Long-click the new tab button to open a new Container tab.
@@ -250,23 +251,23 @@ Facebook Container also deletes Facebook cookies from your other containers on i
 Can I use both Multi-Account Containers and Facebook Container?
 Yes, but you need to be a little careful. Don't use Multi-Account Container to assign facebook.com to a Container, and then try installing Facebook Container. If you a Multi-Account Containers user and want to use both addons, unassign facebook.com, messenger.com, and instagram.com first, then install Facebook Container.
 
-### [uBlock Origin]()
+### [uBlock Origin](){:target="_blank"}
 
 ---
 
-### [Decentralytes](https://decentraleyes.org)
+### [Decentralytes](https://decentraleyes.org){:target="_blank"}
 
-Websites have increasingly begun to rely much more on large third-parties for content delivery. Canceling requests for ads or trackers is usually without issue, however blocking actual content, not unexpectedly, breaks pages. The aim of this add-on is to cut out the middleman by providing lightning speed delivery of local (bundled) files to improve online privacy.
+Websites have increasingly begun to rely much more on large third-parties for content delivery. Canceling requests for ads or trackers is usually without issue, however blocking actual content, not unexpectedly, breaks pages. The aim of this add-on is to cut out the middleman by providing lightning speed delivery of local (bundled){:target="_blank"} files to improve online privacy.
 
 • Protects privacy by evading large delivery networks that claim to offer free services.
-• Complements regular blockers such as uBlock Origin (recommended), Adblock Plus, et al.
+• Complements regular blockers such as uBlock Origin (recommended){:target="_blank"}, Adblock Plus, et al.
 • Works directly out of the box; absolutely no prior configuration required.
 
 Note: Decentraleyes is no silver bullet, but it does prevent a lot of websites from making you send these kinds of requests. Ultimately, you can make Decentraleyes block requests for any missing CDN resources, too.
 
 ---
 
-### [Download All Images](https://add0n.com/save-images.html)
+### [Download All Images](https://add0n.com/save-images.html){:target="_blank"}
 
 Download all images from any web page you’re on with this highly customizable extension.
 
@@ -274,8 +275,8 @@ Extension Preview:
 https://www.youtube.com/watch?v=YaT5sWRV6JQ
 
 Features:
-1. Detects all images loaded on the current web page (even if they’re nested iframes)
-2. Filters images by file size, dimension, URL, or type (JPEG, PNG, BMP, or GIF)
+1. Detects all images loaded on the current web page (even if they’re nested iframes){:target="_blank"}
+2. Filters images by file size, dimension, URL, or type (JPEG, PNG, BMP, or GIF){:target="_blank"}
 3. Finds images in links, background scripts, and CSS files
 4. Displays images in a gallery view before downloading
 
@@ -285,7 +286,7 @@ https://www.youtube.com/watch?v=UZl4hAHziu0
 
 ---
 
-### [DownThemAll](https://downthemall.org/)
+### [DownThemAll](https://downthemall.org/){:target="_blank"}
 
 
 DownThemAll will help you select, queue, sort and run your downloads faster. It comes with advanced ways to select what links to download, and will remember your previous decisions so that you can queue more downloads with just OneClick!
@@ -300,7 +301,7 @@ We are looking for people willing to help translate DownThemAll! to more languag
 
 ---
 
-### [Enhancer for YouTube](https://www.mrfdev.com/enhancer-for-youtube)
+### [Enhancer for YouTube](https://www.mrfdev.com/enhancer-for-youtube){:target="_blank"}
 
 Highly customizable and easy-to-use extension that allows you to:
 
@@ -314,7 +315,7 @@ Highly customizable and easy-to-use extension that allows you to:
 
 ✔ Automatically play videos in 4K, HD, or any other preferred format
 
-✔ Loop videos (in part or in whole)
+✔ Loop videos (in part or in whole){:target="_blank"}
 
 ✔ Use custom themes
 
@@ -333,221 +334,221 @@ YouTube is a trademark of Google Inc. Use of this trademark is subject to Google
 
 ---
 
-### [Exify]()
+### [Exify](){:target="_blank"}
 
 
 ---
 
-### [Facebook Container]()
+### [Facebook Container](){:target="_blank"}
 
 
 ---
 
-### [Font Finder]()
+### [Font Finder](){:target="_blank"}
 
 
 ---
 
-### [Foxy SEO Tool]()
+### [Foxy SEO Tool](){:target="_blank"}
 
 
 ---
 
-### [FoxyTab]()
+### [FoxyTab](){:target="_blank"}
 
 
 ---
 
-### [Ghostery]() - Privacy Ad Blocker
+### [Ghostery](){:target="_blank"} - Privacy Ad Blocker
 
 
 ---
 
-### [Gnome Shell Integration]() (Linux Only)
+### [Gnome Shell Integration](){:target="_blank"} (Linux Only){:target="_blank"}
 
 
 ---
 
-### [Google search link fix]()
+### [Google search link fix](){:target="_blank"}
 
 
 ---
 
-### [Group Speed Dial]()
+### [Group Speed Dial](){:target="_blank"}
 
 
 ---
 
-### [Katalon Recorder]() (Selenium tests generator)
+### [Katalon Recorder](){:target="_blank"} (Selenium tests generator){:target="_blank"}
 
 
 ---
 
-### [Keywords Everywhere]() - Keyword Tool
+### [Keywords Everywhere](){:target="_blank"} - Keyword Tool
 
 
 ---
 
-### [Laser Cat]()
+### [Laser Cat](){:target="_blank"}
 
 
 ---
 
-### [LightShot]()
+### [LightShot](){:target="_blank"}
 
 
 ---
 
-### [LinkGopher]()
+### [LinkGopher](){:target="_blank"}
 
 
 ---
 
-### [Live Server]()
+### [Live Server](){:target="_blank"}
 
 
 ---
 
-### [Livemarks]()
+### [Livemarks](){:target="_blank"}
 
 
 ---
 
-### [Measure-it]()
+### [Measure-it](){:target="_blank"}
 
 
 ---
 
-### [Media Converter and Muxer]()
+### [Media Converter and Muxer](){:target="_blank"}
 
 
 ---
 
-### [Momentum]()
+### [Momentum](){:target="_blank"}
 
 
 ---
 
-### [NicCage]()
+### [NicCage](){:target="_blank"}
 
 
 ---
 
-### [Nimbus Screen Capture]()
+### [Nimbus Screen Capture](){:target="_blank"}
 
 
 ---
 
-### [NoScripts]()
+### [NoScripts](){:target="_blank"}
 
 
 
 ---
 
-### [Octotree]()
+### [Octotree](){:target="_blank"}
 
 
 ---
 
-### [OneNote Web Clipper]()
+### [OneNote Web Clipper](){:target="_blank"}
 
 
 ---
 
-### [Privacy Badger]()
+### [Privacy Badger](){:target="_blank"}
 
 
 ---
 
-### [React Developer Tools]()
+### [React Developer Tools](){:target="_blank"}
 
 
 ---
 
-### [Search by Image]()
+### [Search by Image](){:target="_blank"}
 
 
 ---
 
-### [Selenium IDE]()
+### [Selenium IDE](){:target="_blank"}
 
 
 ---
 
-### [SEO Minion]()
+### [SEO Minion](){:target="_blank"}
 
 
 ---
 
-### [SERP Keyword Scraper]()
+### [SERP Keyword Scraper](){:target="_blank"}
 
 
 ---
 
-### [Single File]()
+### [Single File](){:target="_blank"}
 
 
 ---
 
-### [Sound Fixer]()
+### [Sound Fixer](){:target="_blank"}
 
 
 ---
 
-### [Stylus]()
+### [Stylus](){:target="_blank"}
 
 
 ---
 
-### [Tab Manager Plus for Firefox]()
+### [Tab Manager Plus for Firefox](){:target="_blank"}
 
 
 ---
 
 
-### [To Google Translate]()
+### [To Google Translate](){:target="_blank"}
 
 
 ---
 
-### [Tranquility Reader]()
+### [Tranquility Reader](){:target="_blank"}
 
 
 ---
 
-### [Translate Web Pages]()
+### [Translate Web Pages](){:target="_blank"}
 
 
 ---
 
-### [User-Agent Switcher]()
+### [User-Agent Switcher](){:target="_blank"}
 
 
 ---
 
-### [Vue.js devtools]()
+### [Vue.js devtools](){:target="_blank"}
 
 
 ---
 
-### [Wappalyzer]()
+### [Wappalyzer](){:target="_blank"}
 
 ---
 
-### [Wayback Machine]()
-
-
----
-
-### [Web Scraper]() - Free Web Scraping
+### [Wayback Machine](){:target="_blank"}
 
 
 ---
 
-### [webhint]()
+### [Web Scraper](){:target="_blank"} - Free Web Scraping
 
 
 ---
 
-### [Zoom Page WE]()
+### [webhint](){:target="_blank"}
+
+
+---
+
+### [Zoom Page WE](){:target="_blank"}
 

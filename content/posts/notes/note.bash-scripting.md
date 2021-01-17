@@ -2,10 +2,6 @@
 title: "Bash Scripting for Utterly Hopeless Fools"
 date: 2021-01-14T01:17:21-05:00
 draft: false
-menu:
-   docs:
-      title: "How to Bash"
-      parent: "notes"
 enableEmoji: true
 showToc: true
 params:
