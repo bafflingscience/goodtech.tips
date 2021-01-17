@@ -45,7 +45,7 @@ theme = "hugo-PaperMod"
   #      weight = 50
 disqusShortname = "endofdaves"
 [params]
-  description = "Tech tips from third-personally acclaimed stable genius and tech wizard, David Clegg. Helping beginners with titalating tips on terminal commands, bash scripting, css, seo, web development, web design, browser tools, and much much more."
+  description = "Tech tips from a stable genius who is Helping beginners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
   comments = true
   ShowShareButtons = true
 
