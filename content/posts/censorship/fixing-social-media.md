@@ -5,7 +5,6 @@ draft: false
 tag: ["peertube", "pleroma", "twitter alternative", "facebook alternative", "free speech", "free speech tech", "alt-tech", "youtube", "big tech", "censorship", "stable genius"]
 ---
 
-
 {{< youtube oOiCACmjKBM >}}
 
 *all of the links on this site are from the notes of this video by [Luke Smith](https://www.youtube.com/watch?v=oOiCACmjKBM)*
@@ -85,6 +84,8 @@ and many, many more
 Get a cheap and reliable domain name with 
 
 [Vultr](https://www.vultr.com/?ref=8773087) Get a VPS and host a website or server for anything else.
+
+[Minds](https://www.minds.com/register?referrer=hooksaw_lazrblade)
 
 [Brave Browser](https://brave.com/) Get the Brave browser.
 

@@ -1,5 +1,5 @@
 ---
-title: "Tech Lords and The Information War"
+title: "Media, Madness, and Content Monetization in the Age of Despair"
 date: 2021-01-13T23:32:41-05:00
 draft: true
 weight: 1
