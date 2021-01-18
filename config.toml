@@ -73,9 +73,6 @@ Title = "Welcome to Good Tech Tips 🌎"
         name = "rss"
         url = "index.xml"
     [[params.socialIcons]]
-        name = "reddit"
-        url = "https://www.reddit.com/user"
-    [[params.socialIcons]]
         name = "soundcloud"
         url = "https://soundcloud.com/thedavidsofusa"
     [[params.socialIcons]]

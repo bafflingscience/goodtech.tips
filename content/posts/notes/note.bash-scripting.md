@@ -342,7 +342,7 @@ done
 
 ### Conditional Statements using Comparison Operators
 
-root@user$ /user/Documents/totallyscript.sh
+`root@user $ /user/Documents/totallyscript.sh``
 
 ```bash
 #! /bin/bash
