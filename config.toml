@@ -45,8 +45,6 @@ theme = "hugo-PaperMod"
   #      url = "/boobs+/"
   #      weight = 50
 
-disqusShortname = "goodtech-tips"
-
 [params]
   description = "Tech tips from a stable genius who is Helping beginners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
   comments = true
@@ -64,10 +62,10 @@ Title = "Welcome to Good Tech Tips 🌎"
         url = "https://dev.to/bafflingscience"
     [[params.socialIcons]]
         name = "pinterest"
-        url = "https://www.pinterest.com"
+        url = "https://www.pinterest.com/bafflingscience"
     [[params.socialIcons]]
         name = "twitter"
-        url = "https://twitter.com"
+        url = "https://twitter.com/prettynicecloud"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/bafflingscience"
@@ -85,8 +83,6 @@ Title = "Welcome to Good Tech Tips 🌎"
         url = "mailto:thedavidsofusa@gmail.com"
 
 # Privacy Settings
-[privacy.disqus]
-disable = false
 [privacy.googleAnalytics]
 anonymizeIP = false
 disable = false
