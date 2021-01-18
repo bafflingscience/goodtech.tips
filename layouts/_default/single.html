@@ -60,10 +60,6 @@
     {{- partial "share_icons.html" . }}
     {{- end }}
   </footer>
-
-  {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
-  {{- partial "comments.html" . }}
-  {{ template "_internal/disqus.html" . }}
   {{- end }}
 </article>
 
