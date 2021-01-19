@@ -46,7 +46,6 @@ theme = "hugo-PaperMod"
   #      weight = 50
 [params]
   description = "Tech tips from a stable genius who is Helping beginners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
-  comments = false
   ShowShareButtons = true
 
 [params.netlify]
