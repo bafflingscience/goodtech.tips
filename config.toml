@@ -63,6 +63,9 @@ Title = "Welcome to Good Tech Tips 🌎"
         name = "pinterest"
         url = "https://www.pinterest.com/bafflingscience"
     [[params.socialIcons]]
+        name = "instagram"
+        url = "https://instagram.com/thedavidsofusa"
+    [[params.socialIcons]]
         name = "twitter"
         url = "https://twitter.com/prettynicecloud"
     [[params.socialIcons]]
@@ -98,3 +101,7 @@ simple = false
 [privacy.youtube]
 disable = false
 privacyEnhanced = false
+
+outputs = ["json"]
+section = ["json"]
+home = ["json"]
