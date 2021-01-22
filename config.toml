@@ -13,6 +13,13 @@ theme = "hugo-PaperMod"
   category = "categories"
   tag = "tags"
 
+# [outputs]
+#    page = ["json"] # A player
+#    section = ["json"] # All players
+#    home = ["json"] # Everything
+
+
+
 # Main Menu
     [[menu.main]]
         identifier = "blog"
@@ -20,9 +27,9 @@ theme = "hugo-PaperMod"
         url = "/posts/"
         weight = 10
     [[main.menu]]
-        identifier = "notes"
-        name = "notes"
-        url = "/posts/notes/"
+        identifier = "news"
+        name = "news"
+        url = "/news/"
         weight = 20
     [[main.menu]]
         identifier = "tag"
@@ -47,6 +54,7 @@ theme = "hugo-PaperMod"
 [params]
   description = "Tech tips from a stable genius who is Helping beginners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
   ShowShareButtons = true
+  API_KEY = "5ca8fac10fc041c9a1593a1145c4ae23"
 
 [params.netlify]
     honeypot = true

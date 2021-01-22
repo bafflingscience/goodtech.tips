@@ -3,27 +3,429 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://goodtech.tips/notes/</loc>
-    <lastmod>2021-01-16T15:40:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/posts/notes/note.bash-scripting/</loc>
+    <loc>https://goodtech.tips/posts/note.bash-scripting/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/censorship/censored.information-warfare/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/posts/notes/note.find/</loc>
+    <loc>https://goodtech.tips/posts/note.find/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.browser-extensions-for-intelligent-heros/</loc>
+    <loc>https://goodtech.tips/posts/drafts/blog.computering/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/note.terminal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/notes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/censored.information-warfare/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/</loc>
+    <lastmod>2021-01-21T22:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/</loc>
+    <lastmod>2021-01-21T22:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/how-to/</loc>
+    <lastmod>2021-01-21T22:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/note.ffmpeg/</loc>
+    <lastmod>2021-01-21T22:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/</loc>
+    <lastmod>2021-01-21T22:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/technology/</loc>
+    <lastmod>2021-01-21T22:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/note.cambly/</loc>
+    <lastmod>2021-01-18T22:25:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/2020-election/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/alex-jones/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/alt-tech/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/alternative-news/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/andrew-cuomo/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/antifa/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/ben-shapiro/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/bias/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/big-tech/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/big-tech/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/bitchute/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/bitchute.com/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/black-lives-matter/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/blm/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/cabal/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/censorship/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/censorship/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/christian/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/cnn/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/communism/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/conservative-news/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/conservatives/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/conspiracy/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/constitution/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/crime/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/donald-trump/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/donald-trump-jr/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/election-2020/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/fake-news/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/fascism/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/fox-news/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/free-speech/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/gab/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/gab.com/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/george-soros/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/globalists/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/gun-control/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/hillary-clinton/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/hypocricy/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/hysteria/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/joe-biden/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/kamala-harris/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/lbry/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/libertarian/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/maga/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/media/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/minds.com/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/mostly-peaceful-protests/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/msnbc/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/news/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/odysee.com/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/parler/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/parler.com/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/politics/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/pro-life/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/protonmail/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/quit-apple/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/quit-facebook/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/quit-google/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/quit-twitter/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/right-of-center/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/right-wing/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/riots/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/rumble/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/rush-limbaugh/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/silent-majority/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/socialism/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/thepostmillenial/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/tucker-carlson/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/vpn/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/youtube-alternative/</loc>
+    <lastmod>2021-01-17T23:32:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/note.browser-extensions-for-intelligent-heros/</loc>
     <lastmod>2021-01-16T15:40:49-05:00</lastmod>
   </url>
   
@@ -58,11 +460,6 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/categories/</loc>
-    <lastmod>2021-01-16T15:40:49-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goodtech.tips/tags/chrome-extensions/</loc>
     <lastmod>2021-01-16T15:40:49-05:00</lastmod>
   </url>
@@ -93,16 +490,6 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/</loc>
-    <lastmod>2021-01-16T15:40:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/categories/how-to/</loc>
-    <lastmod>2021-01-16T15:40:49-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goodtech.tips/tags/how-to/</loc>
     <lastmod>2021-01-16T15:40:49-05:00</lastmod>
   </url>
@@ -128,7 +515,7 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/</loc>
+    <loc>https://goodtech.tips/tags/security/</loc>
     <lastmod>2021-01-16T15:40:49-05:00</lastmod>
   </url>
   
@@ -139,16 +526,6 @@
   
   <url>
     <loc>https://goodtech.tips/tags/seo/</loc>
-    <lastmod>2021-01-16T15:40:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/</loc>
-    <lastmod>2021-01-16T15:40:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/categories/technology/</loc>
     <lastmod>2021-01-16T15:40:49-05:00</lastmod>
   </url>
   
@@ -183,7 +560,7 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.create-and-deploy/</loc>
+    <loc>https://goodtech.tips/posts/drafts/note.create-and-deploy/</loc>
     <lastmod>2021-01-16T15:32:43-05:00</lastmod>
   </url>
   
@@ -263,17 +640,12 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.css/</loc>
+    <loc>https://goodtech.tips/posts/drafts/note.css/</loc>
     <lastmod>2021-01-16T15:24:55-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/censorship/</loc>
-    <lastmod>2021-01-14T19:31:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/posts/censorship/fixing-social-media/</loc>
+    <loc>https://goodtech.tips/posts/fixing-social-media/</loc>
     <lastmod>2021-01-14T19:31:22-05:00</lastmod>
   </url>
   
@@ -289,11 +661,6 @@
   
   <url>
     <loc>https://goodtech.tips/tags/alexandria-ocasio-cortez/</loc>
-    <lastmod>2021-01-14T14:54:01-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/blm/</loc>
     <lastmod>2021-01-14T14:54:01-05:00</lastmod>
   </url>
   
@@ -318,12 +685,7 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/tags/free-speech/</loc>
-    <lastmod>2021-01-14T14:54:01-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/posts/censorship/hatewhiteppl/</loc>
+    <loc>https://goodtech.tips/posts/drafts/hatewhiteppl/</loc>
     <lastmod>2021-01-14T14:54:01-05:00</lastmod>
   </url>
   
@@ -373,7 +735,7 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.embed-yt-hugo/</loc>
+    <loc>https://goodtech.tips/posts/note.embed-yt-hugo/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
   </url>
   
@@ -473,336 +835,6 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/tags/2020-election/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/alex-jones/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/alt-tech/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/alternative-news/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/andrew-cuomo/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/antifa/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/ben-shapiro/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/bias/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/big-tech/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/bitchute/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/bitchute.com/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/black-lives-matter/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/cabal/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/censorship/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/christian/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/cnn/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/communism/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/conservative-news/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/conservatives/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/conspiracy/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/constitution/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/crime/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/donald-trump/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/donald-trump-jr/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/election-2020/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/fake-news/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/fascism/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/fox-news/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/gab/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/gab.com/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/george-soros/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/globalists/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/gun-control/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/hillary-clinton/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/hypocricy/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/hysteria/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/joe-biden/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/kamala-harris/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/lbry/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/libertarian/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/maga/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/media/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/minds.com/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/mostly-peaceful-protests/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/msnbc/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/news/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/odysee.com/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/parler/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/parler.com/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/pro-life/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/protonmail/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/quit-apple/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/quit-facebook/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/quit-google/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/quit-twitter/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/right-of-center/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/right-wing/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/riots/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/rumble/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/rush-limbaugh/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/silent-majority/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/socialism/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/thepostmillenial/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/tucker-carlson/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/vpn/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/youtube-alternative/</loc>
-    <lastmod>2021-01-13T23:32:41-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goodtech.tips/tags/find/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
   </url>
@@ -828,7 +860,7 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.fzf/</loc>
+    <loc>https://goodtech.tips/posts/note.fzf/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
   </url>
   
@@ -913,7 +945,7 @@
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/notes/note.c-sharp/</loc>
+    <loc>https://goodtech.tips/posts/note.c-sharp/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
   </url>
   
@@ -1083,11 +1115,325 @@
   </url>
   
   <url>
+    <loc>https://goodtech.tips/tags/dr-suess/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/fast/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/fast-vs-slow/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/faster/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/lyrics/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/poetry/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/rabbit-vs-turtle/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/relativity/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/rhyme/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/rhyminosaurus/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/slow/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/slower/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/blog.which-speed/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/tortoise-vs-hare/</loc>
+    <lastmod>1970-08-22T15:08:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/note.browser-extensions-part-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/activism/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/attorneys/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/beautiful-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/blog.building-website-is-hard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/business/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/ceo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/change/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/child-support/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/note.child-support/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/click-per-mille/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/coding-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/concentration-music/</loc>
+  </url>
+  
+  <url>
     <loc>https://goodtech.tips/contact/</loc>
   </url>
   
   <url>
-    <loc>https://goodtech.tips/posts/censorship/media-madness-and-content-monetization-in-the-age-of-despair/</loc>
+    <loc>https://goodtech.tips/categories/corruption/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/corruption/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/cost-per-click/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/court/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/cpc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/cpm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/creative-commons/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/decision-making/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/divorce/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/divorce/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/entrepreneur/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/exotic-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/family/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/family-court/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/family-law/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/harmful/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/how-to-build-website/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/how-to-make-website-without-wordpress/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/blog.monetizing-youtube/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/indian-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/judges/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/keyword-research/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/keyword-strategies/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/keywordseverywhere/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/law/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/law/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/lawyers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/making-money/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/making-money-on-youtube/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/marketing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/meditation-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/mgtow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/keywords/blog.first-youtube-upload/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/money/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/mozart-study-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/music-to-study-to/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/news/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/niche-ideas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/posts/drafts/media-madness-and-content-monetization-in-the-age-of-despair/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/policies/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/poverty/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/seo-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/sitar/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/society/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/static/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/static-website/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/study-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/tag-generator/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/technology/</loc>
   </url>
   
   <url>
@@ -1100,6 +1446,38 @@
   
   <url>
     <loc>https://goodtech.tips/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/time/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/trance-music/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/tube-buddy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/ubersuggest/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/website-build/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/categories/youtube/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/youtube-earnings-per-view/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goodtech.tips/tags/youtube-tags/</loc>
   </url>
   
 </urlset>
