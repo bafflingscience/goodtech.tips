@@ -1,5 +1,5 @@
 ---
-title: "Using the `find` command to find files and folders, for low IQ individuals"
+title: "Using the `find` command to find files and folders"
 date: 2021-01-13T12:37:13-05:00
 draft: false
 weight: 1
@@ -9,10 +9,12 @@ params:
    ShowShareButtons: true
 categories: ["Technology", "Web Development", "How To"]
 tags: ["bash", "zsh", "terminal", "linux", "macOS", "wsl", "debian", "find", "terminal commands", "programming", "how-to", "learn to code", "self-taught", "autodidact", "web development", "system admin", "fzf", "jdupes", "alan resnick", "put it on your desktop"]
+summary: "All things are difficult before they're easy"
 ---
 <!--![img](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.QQIFwj8TNOIBTR367L92fQHaFi%26pid%3DApi&f=1)
 -->
 *"All things are difficult before they're easy." -Thomas Fuller*
+
 
 
 {{< giphy 9DczRbHVGwVuaKwiQJ >}}

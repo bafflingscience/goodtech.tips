@@ -1,5 +1,5 @@
 ---
-title: "Bash Scripting for Utterly Hopeless Fools"
+title: "Bash Scripting Templates and Notes"
 date: 2021-01-14T01:17:21-05:00
 draft: false
 enableEmoji: true
@@ -9,6 +9,7 @@ params:
 weight: 1
 categories: ["Technology", "Web Development", "How To"]
 tags: ["bash", "terminal", "shell", "linux", "unix", "bash scripting", "chmod", "executable", "sudo", "$PATH", "echo", "how to", "zsh"]
+summary: "Notes and Examples of how to write a script in bash"
 ---
 
 {{< emoji ":thumbsup:" >}}
@@ -21,7 +22,19 @@ tags: ["bash", "terminal", "shell", "linux", "unix", "bash scripting", "chmod", 
 
 {{< emoji ":chart_with_upwards_trend:" >}}
 
-A smorgasbord of bash scripting fundamentals for beginners. These are literally my notes, so I would recommend the Table of Contents.
+Bash scripting fundamentals for beginners. 
+Coding for beginners.
+New Coder
+
+---
+
+- Linux -
+MacOS -- Debian 
+- Ubuntu - 
+PopOS -- Windows10
+
+These are my notes, 
+see table of contents for topic navigation.
 
 ### Sc®ip†n
 
@@ -34,12 +47,12 @@ A smorgasbord of bash scripting fundamentals for beginners. These are literally 
    `chmod +x ytpl.sh`
 
 3. make your file findable by placing it in the $PATH.  
-   first, check the $PATH with: 
-   `echo $PATH` which will output something like: 
-   ```txt
-   file/paths/where/computer/will/look/for/executable/files/:/usr/local/bin:
-   /usr/bin/:each/path/in/$PATH/is/separated/by/a/colon:/usr/dev/opt
-   ```
+   check the $PATH with: 
+      `echo $PATH` which will output something like: 
+      ```txt
+      file/paths/where/computer/will/look/for/executable/files/:/usr/local/bin:
+      /usr/bin/:each/path/in/$PATH/is/separated/by/a/colon:/usr/dev/opt
+      ```
 
 4. if you created your file and saved it here: 
    `~/Documents/filename.txt`, you will not be able to run 

@@ -1,5 +1,5 @@
 ---
-Title: "Embed a YouTube Video in your Hugo Blog Post. A Guide for the Simple Minded" 
+Title: "How To Embed a YouTube Video in a Hugo Blog Post"
 date: 2021-01-14T12:37:13-05:00
 draft: false
 showTOC: false
@@ -8,6 +8,7 @@ params:
    ShowShareButtons: true
 categories: ["Technology", "Web Development", "How To"]
 tags: ["Hugo", "static site generator", "static html", "html templates", "YouTube", "embed youtube", "web design", "embed code", "blog", "how-to", "Markdown", "shortcodes"]
+summary: "Using Hugo Static Site Generator's Shortcodes to embed YouTube videos on your website."
 ---
 
 ## Using Shortcodes in Markdown to Display Videos

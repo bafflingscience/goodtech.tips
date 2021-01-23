@@ -18,8 +18,6 @@ theme = "hugo-PaperMod"
 #    section = ["json"] # All players
 #    home = ["json"] # Everything
 
-
-
 # Main Menu
     [[menu.main]]
         identifier = "blog"
@@ -36,6 +34,7 @@ theme = "hugo-PaperMod"
         name = "tags"
         url = "/tags/"
         weight = 30
+    
     [[main.menu]]
         identifier = "categories"
         name = "categories"
