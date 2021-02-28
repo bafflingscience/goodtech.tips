@@ -1,3 +1,18 @@
+---
+title: "css selectors ~ the style therein."
+draft: false
+date: 2021-02-27T12:49:10-05:00
+tags: ["css", "css selectors"]
+summary: "c s s . s e l e c t o r s and the world therein"
+---
+*the style [therein](https://www.wordnik.com/words/therein)*
+as told by Mozilla. 
+
+I make no claims of original content on this page. 
+I typed the page into this note, and am sharing it here for the sake of providing useful information to those who may benefit.
+
+The act of plagiarism [notwithstanding](https://www.wordnik.com/words/notwithstanding), I have no plagiaristic intentions.
+
 # [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#combinators#combinators)
 
 ## Basic Selectors
