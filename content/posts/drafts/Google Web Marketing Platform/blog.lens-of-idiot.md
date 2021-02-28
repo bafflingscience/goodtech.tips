@@ -1,5 +1,5 @@
 ---
-title: "Thus, the lens of an idiot"
+title: "The Lens of an Idiot"
 draft: false
 date: 2021-02-27T12:49:10-05:00
 tags: ["ADHD, Google", "Google Analytics", "Google Tag Manager", "Google Search Console", "Google Lighthouse", 
