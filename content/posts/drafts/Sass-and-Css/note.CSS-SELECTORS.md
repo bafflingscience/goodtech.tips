@@ -3,7 +3,7 @@ title: "css selectors ~ the style therein."
 draft: false
 date: 2021-02-27T12:49:10-05:00
 tags: ["css", "css selectors"]
-summary: "c s s . s e l e c t o r s and the world therein"
+summary: "do you select the selectors or does the selector select you?"
 ---
 *the style [therein](https://www.wordnik.com/words/therein)*
 as told by Mozilla. 

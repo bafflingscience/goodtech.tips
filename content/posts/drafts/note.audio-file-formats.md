@@ -1,6 +1,6 @@
 ---
 title: "Audio File Formats for Beginners"
-date: 2021-01-23T16:09:38-05:00
+date: 2021-03-13T16:09:38-05:00
 draft: true
 category: ["audio", "music"]
 tags: ["audio", "adio file formats", "losless", "lossy", "alac", "flac", "mp3", "wav", "aiff", "metadata", "flac"]
@@ -12,7 +12,7 @@ A Digital Audio Signal is created from
 by an Analog to Digital Converter
 Digital Signature is turned into a format to be played.
 CODEC
-Compression and DEcompression
+Compression and de-compression
 
 ## Lossy
 

@@ -1,10 +1,10 @@
 ---
 title: "Do I need to use Sass?"
-date: 2021-01-26T21:47:28-05:00
+date: 2021-03-01T21:47:28-05:00
 draft: true
 tags: []
 categories: []
-summary: "It's like CSS, but earlier."
+summary: "To Sass or Not to Sass? That is the question."
 ---
 
 # I destroyed my website

@@ -1,3 +1,7 @@
+---
+title: "SEO Checklist"
+draft: true
+---
 # SEO CHECKLIST
 
 [goodtech.tips](https://goodtech.tips)
