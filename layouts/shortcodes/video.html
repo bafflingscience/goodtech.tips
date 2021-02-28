@@ -1,0 +1,8 @@
+<video 
+    controls style="
+        width: 100%; 
+        margin-bottom: 20px">
+        {{ with .Get "mp4" }}
+    <source src="{{ . }}" type="video/mp4" />{{ end }}
+        Your browser does not support the video element.
+</video>

@@ -7,10 +7,17 @@ tags: ["time", "money", "seo", "ceo", "decision making", "technology", "marketin
 weight: 1
 summary: "I have ways of making money of which you know nothing"
 ---
-I agree with John D Rockefeller, 
+As a master of finance and speculation, my brain is obviously quite large. Having seen more than 25 MMA fights, I am a beast in the octagon. I make moves that make money. The proof is in the pudding. Do I drive a nice car? Figure it out. Is my wife beautiful? You bet. When do I travel? Whenever I want. Life is good for a confident alpha male with a huge dick and an even bigger check book.
 
-when he said
+I am like an amplified, more muscular version of John D Rockefeller, who said
+
 *"I believe that the power to make money is a gift from God."*
+
+--
+
+Another Rockefeller gem, and something I say to nosy bastards who ask too many questions, 
+
+*"I have ways of making money of which you know nothing."*
 
 
 

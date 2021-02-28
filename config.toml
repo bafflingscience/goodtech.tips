@@ -8,15 +8,11 @@ languageCode = "en-us"
 theme = "hugo-PaperMod"
 ## https://section508.gov/content/guide-accessible-web-design-development
 
+
 # Taxonomy
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-# [outputs]
-#    page = ["json"] # A player
-#    section = ["json"] # All players
-#    home = ["json"] # Everything
 
 # Main Menu
     [[menu.main]]
@@ -34,7 +30,6 @@ theme = "hugo-PaperMod"
         name = "tags"
         url = "/tags/"
         weight = 30
-    
     [[main.menu]]
         identifier = "categories"
         name = "categories"
@@ -51,18 +46,21 @@ theme = "hugo-PaperMod"
   #      url = "/boobs+/"
   #      weight = 50
 [params]
-  description = "Tech tips from a stable genius who is Helping beginners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
+  description = "Tech tips from a stable genius with helpful information for coding learners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
   ShowShareButtons = true
-  API_KEY = "5ca8fac10fc041c9a1593a1145c4ae23"
+#   API_KEY = "5ca8fac10fc041c9a1593a1145c4ae23"
 
 [params.netlify]
     honeypot = true
     recaptcha = true
 
 [params.homeInfoParams]
-Content = "Where the Tech Tips Are Good"
-Title = "Welcome to Good Tech Tips 🌎"
+Title = "Welcome to Good Tech Tips 📔"
+Content = "A collection of tech notes I've taken while learning new things."
 
+    [[params.socialIcons]]
+        name = "linktree"
+        url = "https://linktr.ee/hooksaw_lazrblade"
     [[params.socialIcons]]
         name = "dev"
         url = "https://dev.to/bafflingscience"
@@ -72,9 +70,6 @@ Title = "Welcome to Good Tech Tips 🌎"
     [[params.socialIcons]]
         name = "instagram"
         url = "https://instagram.com/thedavidsofusa"
-    [[params.socialIcons]]
-        name = "twitter"
-        url = "https://twitter.com/prettynicecloud"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/bafflingscience"
@@ -109,6 +104,14 @@ simple = false
 disable = false
 privacyEnhanced = false
 
-outputs = ["json"]
-section = ["json"]
-home = ["json"]
+[mediaTypes]
+[mediaTypes."application/json"]
+suffixes = ["JSON"]
+
+[outputFormats]
+[outputFormats.HTML]
+mediaType = "text/html"
+
+# outputs = ["json"]
+# section = ["json"]
+# home = ["json"]

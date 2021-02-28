@@ -1,5 +1,5 @@
 ---
-title: "Finding files with`fzf` Command-line Fuzzy Finder"
+title: "Finding files with `fzf` Command-line Fuzzy Finder"
 date: 2021-01-13T16:44:43-05:00
 draft: false
 categories: ["Technology", "Web Development", "How To"]

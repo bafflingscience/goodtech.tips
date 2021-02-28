@@ -1,5 +1,5 @@
 ---
-title: "Learning"
+title: "Videos with 'learn' in the title"
 layout: "learn"
 url: "/learn/"
 summary: "learn"
@@ -12,21 +12,18 @@ summary: "learning is good"
 ---
 ---
 
-Piano Learn
+### Learn to Burn on the Piano
 {{< youtube fo7VRF_Uj7o >}}
 ---
 
 
-Learnin' & Burnin'
+### Learn & Burn with The Sheepdogs
 {{< youtube fwNTZLzJXX0 >}}
 ---
----
 
-Lot2Learn
+### Luke Christopher has a lot to learn
 {{< youtube k9elZm_EH_4 >}}
 ---
----
 
-
-theLearning
+### Mobb Deep, life long Learners
 {{< youtube tsuCYtAVupA >}}

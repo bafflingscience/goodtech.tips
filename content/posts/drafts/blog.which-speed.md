@@ -17,8 +17,6 @@ If I choose to go slower you have somethin' to say?
 
 Very well, I'm going to pontificate in a most bodacious way.
 
-
-
 ---
 
 ***"Why are we going faster?***
@@ -27,6 +25,7 @@ where?
 why? 
 for whom? 
 upon whose behest? 
+
 
 
 What if I like slow speed the best?

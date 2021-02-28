@@ -1,9 +1,10 @@
 ---
-title: "Note"
+title: "Audio File Formats for Beginners"
 date: 2021-01-23T16:09:38-05:00
 draft: true
 category: ["audio", "music"]
 tags: ["audio", "adio file formats", "losless", "lossy", "alac", "flac", "mp3", "wav", "aiff", "metadata", "flac"]
+summary: "audio file formats for beginners and dummies"
 ---
 
 File formats and Audio Codecs
