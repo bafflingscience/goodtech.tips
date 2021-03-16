@@ -1,333 +1,346 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://goodtech.tips/posts/note.bash-scripting/</loc>
-    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/posts/note.find/</loc>
-    <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://goodtech.tips/notes/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://goodtech.tips/posts/note.find/</loc>
+    <lastmod>2021-01-13T12:37:13-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/note.bash-scripting/</loc>
+    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/ad-blocker/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/affiliate-marketing/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/affiliate-partners/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/axe/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/browser-extensions/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/browser-plugins/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/chrome-extensions/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/dark-mode/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/dark-reader/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/dev-tools/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/download-from-browser/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/firefox-add-ons/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/blog.browser-exts-for-stable-genius/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/how-to/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/keyword-research-tool/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/keywords/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/last-pass/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/password-manager/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/security/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/seo/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/web-design/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/web-development/</loc>
+    <lastmod>2021-03-15T23:58:03-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/best-practices/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/doestevsky/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/dumb/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/google/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/google-analytics/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/google-lighthouse/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/google-search-console/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/google-tag-manager/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/hats-on-amazon/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/how-to-start/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/idiot/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/jeopardy/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/blog.lens-of-idiot-vol1/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/make-money-online/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/moronic/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/problem-solving/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/sisyphus/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/stovepipe-hat/</loc>
+    <lastmod>2021-03-15T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/bash/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/comedy/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/convert/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/ffmpeg/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/drafts/youtube-dl/note.ffmpeg-convert/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/python/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/smelly-foot-fetish/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/terminal/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/video/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/xxx/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/youtube-dl/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/zsh/</loc>
+    <lastmod>2021-02-27T22:58:00-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/css/</loc>
+    <lastmod>2021-02-27T21:47:28-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/front-end/</loc>
+    <lastmod>2021-02-27T21:47:28-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/sass/</loc>
+    <lastmod>2021-02-27T21:47:28-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/drafts/sass-and-css/note.sass101/</loc>
+    <lastmod>2021-02-27T21:47:28-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/style/</loc>
+    <lastmod>2021-02-27T21:47:28-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/tags/css-selectors/</loc>
+    <lastmod>2021-02-27T12:49:10-05:00</lastmod>
+  </url><url>
+    <loc>https://goodtech.tips/posts/drafts/sass-and-css/note.css-selectors/</loc>
+    <lastmod>2021-02-27T12:49:10-05:00</lastmod>
+  </url><url>
     <loc>https://goodtech.tips/tags/blog/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/categories/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/embed-code/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/embed-youtube/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/categories/how-to/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/how-to/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/posts/note.embed-yt-hugo/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/html-templates/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/hugo/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/markdown/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/posts/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/shortcodes/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/static-html/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/static-site-generator/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/categories/technology/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/web-design/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/categories/web-development/</loc>
-    <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/youtube/</loc>
     <lastmod>2021-01-14T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/path/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/bash/</loc>
-    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/bash-scripting/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/chmod/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/echo/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/executable/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/linux/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/shell/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/sudo/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/terminal/</loc>
-    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/unix/</loc>
     <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/zsh/</loc>
-    <lastmod>2021-01-14T01:17:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/find/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/posts/note.fzf/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/fuzzy/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/fzf/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/mac/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/stupid/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/windows/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/wuzzy/</loc>
     <lastmod>2021-01-13T16:44:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/alan-resnick/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/autodidact/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/debian/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/jdupes/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/learn-to-code/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/macos/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/programming/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/put-it-on-your-desktop/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/self-taught/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/system-admin/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/terminal-commands/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/web-development/</loc>
-    <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/wsl/</loc>
     <lastmod>2021-01-13T12:37:13-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/.net/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/c-sharp/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/posts/note.c-sharp/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/coding/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/tags/learning/</loc>
     <lastmod>2021-01-12T20:22:59-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://goodtech.tips/contact/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://goodtech.tips/music/</loc>
+  </url><url>
+    <loc>https://goodtech.tips/news/</loc>
+  </url><url>
+    <loc>https://goodtech.tips/tags/</loc>
+  </url><url>
     <loc>https://goodtech.tips/learn/</loc>
   </url>
-  
-  <url>
-    <loc>https://goodtech.tips/music/</loc>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/news/</loc>
-  </url>
-  
-  <url>
-    <loc>https://goodtech.tips/tags/</loc>
-  </url>
-  
 </urlset>

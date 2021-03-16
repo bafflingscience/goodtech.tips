@@ -5,8 +5,7 @@ draft: false
 author: Doc Clegg
 tags: ["browser extensions", "chrome extensions", "security", "firefox add-ons", "firefox add-ons", "browser plugins", "how-to", "ad-blocker", "password manager", "last pass", "dark mode", "dark reader", "axe", "dev tools", "web development", "web design", "download from browser", "seo", "keyword research tool", "keywords", "affiliate marketing", "affiliate partners"]
 categories: ["Technology", "How-To", "SEO", "Web Development"]
-series: "BrowserBoysTools"
-summary: "Check out the Add-Ons on this guy! Hey [sizzle chest](https://www.urbandictionary.com/define.php?term=Sizzle%20Chest), I gotchya add-ons right here!"
+summary: "Check out the Add-Ons on this guy! Hey sizzle chest, I gotchya add-ons right here!"
 ---
 
 ## A list of Firefox Browser Extensions I have installed - Part One

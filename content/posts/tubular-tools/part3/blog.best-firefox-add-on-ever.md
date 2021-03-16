@@ -5,7 +5,6 @@ draft: true
 tags: ["Firefox", "Add-Ons", "browser add-ons", "tab managers", "productivity tools", "best browser tools", "tabs tree", "bookmarks", "bookmark manager", "Sidebery"]
 summary: "The Sidebery tab tree and bookmark sidebar tool is not just another Firefox add-on, it's The Add-On."
 description: "Browser Extensions and Add-Ons."
-series: "BrowserToolBoy"
 ---
 
 Sidebery [on GitHub](https://github.com/mbnuqw/sidebery)

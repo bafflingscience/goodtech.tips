@@ -5,5 +5,4 @@ draft: true
 description: "Browser Boys Big Tools"
 summary: "Three part series on browser tools and how a collection can turn into something much more dangerous."
 description: "All About Add-Ons and Extensions"
-series: "BrowserBoysTools"
 ---

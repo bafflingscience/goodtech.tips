@@ -5,7 +5,6 @@ draft: true
 showToc: false
 tags: ["browser extensions", "chrome extensions", "security", "firefox add-ons", "firefox add-ons", "browser plugins", "how-to", "ad-blocker", "password manager", "last pass", "dark mode", "dark reader", "axe", "dev tools", "web development", "web design", "download from browser", "seo", "keyword research tool", "keywords", "affiliate marketing", "affiliate partners"]
 categories: ["Technology", "How-To", "SEO", "Web Development"]
-series: 2 of 3
 summary: "What happens when a harmless fascination with productivity tools turns into a deadly obsession."
 ---
 
