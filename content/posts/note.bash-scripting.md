@@ -6,8 +6,8 @@ enableEmoji: true
 showToc: true
 params:
    ShowShareButtons: true
-weight: 1
-categories: ["Technology", "Web Development", "How To"]
+weight: 4
+# categories: ["Technology", "Web Development", "How To"]
 tags: ["bash", "terminal", "shell", "linux", "unix", "bash scripting", "chmod", "executable", "sudo", "$PATH", "echo", "how to", "zsh"]
 summary: "Notes and Examples of how to write a script in bash"
 ---

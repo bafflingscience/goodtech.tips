@@ -11,7 +11,7 @@ theme = "hugo-PaperMod"
 
 # Taxonomy
 [taxonomies]
-  category = "categories"
+#   category = "categories"
   tag = "tags"
 
 # Main Menu
@@ -31,15 +31,19 @@ theme = "hugo-PaperMod"
         url = "/tags/"
         weight = 30
     [[main.menu]]
-        identifier = "categories"
-        name = "categories"
-        url = "/categories/"
-        weight = 40
-    [[main.menu]]
         identifier = "contact"
         name = "contact"
         url = "/contact/"
-        weight = 50
+        weight = 40
+    [[main.menu]]
+        identifier = "music"
+        name = "music"
+        url = "/music/"
+    # [[main.menu]]
+    #     identifier = "categories"
+    #     name = "categories"
+    #     url = "/categories/"
+    #     weight = 40
   #  [[menu.main]]
   #      identifier = "boobs+"
   #      name = "boobs+"
@@ -58,15 +62,15 @@ theme = "hugo-PaperMod"
 Title = "Welcome to Good Tech Tips 📔"
 Content = "A collection of tech notes I've taken while learning new things."
 
-    [[params.socialIcons]]
-        name = "linktree"
-        url = "https://linktr.ee/hooksaw_lazrblade"
-    [[params.socialIcons]]
-        name = "dev"
-        url = "https://dev.to/bafflingscience"
-    [[params.socialIcons]]
-        name = "pinterest"
-        url = "https://www.pinterest.com/bafflingscience"
+    # [[params.socialIcons]]
+    #     name = "linktree"
+    #     url = "https://linktr.ee/hooksaw_lazrblade"
+    # [[params.socialIcons]]
+    #     name = "dev"
+    #     url = "https://dev.to/bafflingscience"
+    # [[params.socialIcons]]
+    #     name = "pinterest"
+    #     url = "https://www.pinterest.com/bafflingscience"
     [[params.socialIcons]]
         name = "instagram"
         url = "https://instagram.com/thedavidsofusa"

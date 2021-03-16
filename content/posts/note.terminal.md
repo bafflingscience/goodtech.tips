@@ -3,7 +3,6 @@ title: "CommÅnd L¡ne ¡ntErfÅce (CLI)"
 date: today
 draft: true
 tags: []
-weight: 1
 ---
 
 What is a Command Line or a Terminal and What Is Bash? 

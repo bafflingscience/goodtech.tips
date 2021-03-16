@@ -1,14 +1,16 @@
 ---
-title: "The Lens of an Idiot"
+title: "Lens of an Idiot"
 draft: false
-date: 2021-02-27T12:49:10-05:00
-tags: ["ADHD, Google", "Google Analytics", "Google Tag Manager", "Google Search Console", "Google Lighthouse", 
-"SEO", "Make Money Online", "Affiliate Marketing", "best practices", "How to Start", 
-"ADHD", "Jeopardy", "stovepipe hat", "hats on amazon", "problem solving", "Sisyphus", 
-"moronic", "dumb", "idiot"]
+date: 2021-03-15T12:49:10-05:00
+tags: ["Google", "Google Analytics", "Google Tag Manager", "Google Search Console", "Google Lighthouse", 
+"SEO", "Make Money Online", "Affiliate Marketing", "best practices", "How to Start", "Jeopardy", "stovepipe hat", "hats on amazon", "problem solving", "Sisyphus", "moronic", "dumb", "idiot", "Doestevsky"]
 categories: ["Marketing", "SEO", "Advertising", "Mythology", "Literature"]
-summary: "Google Analytics, Google Ads Manager, Google Tag Manager, Google Search Console, Google Optimize, Google Lighthouse, and other ways to open one thousand tabs in a matter of minutes!"
+# description: "“Lack of originality, everywhere, all over the world, from time immemorial, has always been considered the foremost quality and the recommendation of the active, efficient and practical man.”
+# ― Fyodor Dostoevsky, The Idiot "
+summary: "What do Google Analytics, Sisyphus, and Stove Pipe Hats Have in Common?"
 ---
+
+
 ### a man and his prolific use of web browsers
 ​As I type this, there are anywhere from 40 to 4000 tabs open in three browsers on my desktop. 
 I use Google Chrome for SEO and SERPs, keyword research, and running Google's Lighthouse audits from the 

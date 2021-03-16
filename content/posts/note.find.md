@@ -2,7 +2,7 @@
 title: "Using the `find` command to find files and folders"
 date: 2021-01-13T12:37:13-05:00
 draft: false
-weight: 1
+weight: 2
 enableEmoji: true
 enableToc: true
 params:

@@ -37,6 +37,15 @@
 
 .first-entry {
     margin: 0; /* var(--gap) 0 calc(var(--gap) * 2) 0*/
+    min-height: 220px;
+}
+
+.social-icons a {
+    transition: color 0.5s;
+}
+
+.social-icons a:hover {
+    color: hsl(359, 70%, 70%);
 }
 
 .main .page-header {
@@ -47,15 +56,14 @@ main.main header.page-header h1 {
     color: var(--entryhead)
 }
 
-main article.post-entry:hover {
-    background-color: var(--entryhead);
-    transition: transform .5s;
 
+main article.post-entry {
+    transition: background-color 0.75s;
 }
 
-article.post-entry:hover {
-    transition: transform .5s;
-    background-image: var(--entryhov)
+main article.post-entry:hover {
+    background-color: var(--postlinkhov)
+    /* background-image: var(--entryhov) */
 }
 
 :root {
