@@ -1,4 +1,4 @@
-# goodtech.tips
+# [November HugoPaperMod Mod](https://goodtech.tips)
 a tech blog site built using Hugo static site generator.
 
 Light Theme
