@@ -1,4 +1,4 @@
-# [n o v e m b e r . h u g o . p A p e r . m o d . m o d](https://goodtech.tips)
+# [g o o d t e c h . t i p s](https://goodtech.tips)
 a tech blog site built using Hugo static site generator.
 
 Light Theme
