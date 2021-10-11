@@ -1,4 +1,4 @@
-name: "mild weather at dusk and breezy dawn gradiant"
+name: "November-Hugo-PaperMod"
 license: "MIT"
 licenselink: "whatever that is"
 description: "just a happy little Hugo theme with shimmering little gradient backgrounds. The day theme, representing the alert and calm drowsiness that is brought on by those of a crisp, late October sunrise. And the night theme, which brings to mind the cool autumn evening air and the calm therein."
@@ -14,7 +14,7 @@ features: ["beauty", "prestige", "reputation", "respect", "freedom", "love", "ta
 
 [author]
     name: "Big Jones"
-    homepage: "goodtech.tips"
+    homepage: "https://goodtech.tips"
 
 # If porting an existing theme
 [original]

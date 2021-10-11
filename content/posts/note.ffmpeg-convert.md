@@ -1,8 +1,8 @@
 ---
 title: "How to convert a video format in bash with ffmpeg"
 date: 2021-02-27T22:58:00-05:00
-draft: false
-tags: ["ffmpeg", "youtube-dl", "bash", "zsh", "terminal", "python", "video", "convert", "xxx", "smelly foot fetish", "comedy"]
+draft: true
+tags: ["ffmpeg", "youtube-dl", "bash", "zsh", "terminal", "python", "video", "convert", "comedy"]
 categories: ["How To", "Technology", "Bash"]
 summary: "A simple guide on how to perform some basic video conversion tasks with `ffmpeg`"
 ---

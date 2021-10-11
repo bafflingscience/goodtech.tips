@@ -2,6 +2,7 @@
 title: "Firefox Add-Ons for 150 IQ or Higher Individuals ONLY"
 date: 2021-10-08
 draft: false
+series: ["Tubular Tools"]
 tags: ["browser extensions", "chrome extensions", "security", "firefox add-ons", "firefox add-ons", "browser plugins", "how-to", "ad-blocker", "password manager", "last pass", "dark mode", "dark reader", "axe", "dev tools", "web development", "web design", "download from browser", "seo", "keyword research tool", "keywords", "affiliate marketing", "affiliate partners"]
 categories: ["Technology", "How-To", "SEO", "Web Development"]
 summary: "Check out the Add-Ons on this guy! Hey sizzle chest, I gotchya add-ons right here!"
