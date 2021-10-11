@@ -1,15 +1,15 @@
 ---
-title: "Slower is Better"
-date: 2021-02-27T12:49:10-05:00
-draft: true
+title: "I know, therefore I go - slow."
+date: 2021-10-03
+draft: false
+weight: 5
 tags: ["rhyminosaurus","slow", "fast", "rhyme", "dr suess", "slower", "faster", "fast vs slow", "rabbit vs turtle", "tortoise vs hare", "poetry", "lyrics", "relativity"]
-summary: "Absurd rhyming on a man's favorite of all the speeds."
+summary: " Slower is Better. Tis truly, a king among rates of acceleration."
 ---
+
 ### Who are They who say?
 
-*"We must go faster"* 
-
-**they** say 
+*"We must go faster"*, tis the only way!
 
 But who are **they**?
 
@@ -30,7 +30,7 @@ for whom?
 
 upon whose behest? 
 
-What if I like slow speed the best?
+What if I like slow speeds the best?
 My preference for speed is a simple request.
 
 I like **things** in a particular **way**. 
@@ -49,27 +49,27 @@ there is **one speed** that I prefer above the **rest**,
 ***I shan't go faster henceforth.***
 ```python
 pontification_on_speed = 
-        "Upon whose behest was a standard set, 
-        that of all two speeds put to the test,  
-        the speed of fast was determined best?" 
+"Upon whose behest was a standard set, 
+that of all two speeds put to the test,  
+the speed of fast was determined best?" 
 
-        who was granted the authority?
-        By whom was this authority granted? 
-        My vote was not cast, 
-        this is not playing straight, 
-        it is completely slanted!
-        I protest! 
-        Who decided fast is best? 
-        For everyone here, 
-        for everyone there,
-        for everyone from here to Budapest
-        Who is so brave to ask no request, 
-        when deciding for all 
-        that the one speed chosen
-        as the superior speed above the rest, 
-        was Chosen incorrectly, 
-        and I do protest 
-        to those who claim that FASTER IS BEST!
+who was granted the authority?
+By whom was this authority granted? 
+My vote was not cast, 
+this is not playing straight, 
+it is completely slanted!
+I protest! 
+Who decided fast is best? 
+For everyone here, 
+for everyone there,
+for everyone from here to Budapest
+Who is so brave to ask no request, 
+when deciding for all 
+that the one speed chosen
+as the superior speed above the rest, 
+was Chosen incorrectly, 
+and I do protest 
+to those who claim that FASTER IS BEST!
 ```
 
 I DO PROTEST TO THAT!
@@ -84,13 +84,11 @@ Or is that the idea you want me to have?
 
 ***Why are we goin faster?*** 
 
-the number one speed,
-
-of all of the speeds,
+what is the number one speed of all speeds?
 
 which speed could it be?
 
-which speed will be chosen? 
+which speed will win which speed will be chosen? 
 
 could it be speed one or could it be three? 
 
@@ -100,7 +98,7 @@ If I were a speed would I still be me?
 
 I bet I would be if I were a three. 
 
-the number three version of me.  
+the number three speed index version of me.
 
 tales from the darkside through a grey forest of bare trees
 
@@ -108,4 +106,4 @@ a speed is a speed. indeed.
 
 any questions? any complaints?
 
-absorb that knowledge into your soft mushy brain.
+absorb them into your soft mushy brain.

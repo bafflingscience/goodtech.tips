@@ -1,6 +1,6 @@
 ---
 title: "Finding files with `fzf` Command-line Fuzzy Finder"
-date: 2021-01-13T16:44:43-05:00
+date: 2021-10-03T16:44:43-05:00
 draft: false
 categories: ["Technology", "Web Development", "How-To"]
 tags: ["fzf", "terminal", "bash", "fuzzy", "wuzzy", "find", "linux", "mac", "windows", "stupid"]

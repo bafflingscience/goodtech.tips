@@ -1,7 +1,10 @@
 ---
 title: "SEO Checklist"
 draft: true
+date: 2021-07-21
+summary: SEO Checklist for this goodtech.tips. Including keyword research, SEO Analysis results, and leading domain authorities.
 ---
+
 # SEO CHECKLIST
 
 [goodtech.tips](https://goodtech.tips)
@@ -13,8 +16,6 @@ draft: true
 ### Keyword: terminal commands
 
 Leading Domain Authority is [this blog post](https://dev.to/kymiddleton/reference-guide-common-commands-for-terminal-6no), titled **Reference Guide: Common Commands for Terminal**
-
-
 
 ---
 
@@ -66,7 +67,7 @@ Leading Domain Authority is [this blog post](https://dev.to/kymiddleton/referenc
 
 **linux find file** 1710
 
-**terminal commands mac **1,417
+**terminal commands mac** 1,417
 
 **fish shell** 1202
 
@@ -99,7 +100,6 @@ Leading Domain Authority is [this blog post](https://dev.to/kymiddleton/referenc
 **terminal commands cheat sheet** 229
 
 **terminal commands ubuntu** 122
-
 
 
 ### [Website SEO Analysis](https://www.websiteseoanalysis.net/domain/goodtech.tips#) Results

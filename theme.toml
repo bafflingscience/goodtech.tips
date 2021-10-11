@@ -1,0 +1,30 @@
+name: "mild weather at dusk and breezy dawn gradiant"
+license: "MIT"
+licenselink: "whatever that is"
+description: "just a happy little Hugo theme with shimmering little gradient backgrounds. The day theme, representing the alert and calm drowsiness that is brought on by those of a crisp, late October sunrise. And the night theme, which brings to mind the cool autumn evening air and the calm therein."
+
+# the home page of the theme, where the source can be found.
+homepage: "https://github.com/bafflingscience/mildusk-breezydawn-hugobugo"
+
+# IF u have a running demo of the uhhh, like, theme.
+demosite: "goodtech.tips"
+
+tags: ["hugo",  "theme", "custom theme", "night mode", "light", "dark", "theme toggler", "html", "css", "sass", "scss", "go", "go-lang", "markdown", "toml"]
+features: ["beauty", "prestige", "reputation", "respect", "freedom", "love", "taboo", "nostalgia", "sorrow", "content", "proud", "stable", "attractive"]
+
+[author]
+    name: "Big Jones"
+    homepage: "goodtech.tips"
+
+# If porting an existing theme
+[original]
+    author: "Aditya Telange"
+    homepage: "https://github.com/adityatelange"
+    repo: "https://github.com/adityatelange/hugo-PaperMod"
+
+
+
+
+
+
+

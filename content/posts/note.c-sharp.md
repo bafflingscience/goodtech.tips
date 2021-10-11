@@ -1,12 +1,8 @@
 ---
-title: "C-sharp Beginner's Notes"
-date: 2021-01-12T20:22:59-05:00
+title: "How to C-sharp, just a little bit."
+date: 2021-05-12T20:22:59-05:00
 draft: false
 showToc: true
-menu:
-   docs:
-      title: "How to C-sharp"
-      parent: "notes"
 categories: ["Technology", "Web Development", "How To"]
 tags: ["c-sharp", "programming", "web development", ".NET", "Windows", "how-to", "coding", "learning", "self-taught"]
 summary: "Notes from Microsoft's C# Tutorials"

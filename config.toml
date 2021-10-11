@@ -5,13 +5,14 @@ enableInlineShortcodes = true
 enableThumbnails = true
 enableRobotsTXT = true
 languageCode = "en-us"
-theme = "hugo-PaperMod"
+theme = "Hugo-November-PaperMod"
 ## https://section508.gov/content/guide-accessible-web-design-development
 
 
 # Taxonomy
 [taxonomies]
-#   category = "categories"
+  category = "categories"
+  series = "series"
   tag = "tags"
 
 # Main Menu
@@ -39,20 +40,11 @@ theme = "hugo-PaperMod"
         identifier = "music"
         name = "music"
         url = "/music/"
-    # [[main.menu]]
-    #     identifier = "categories"
-    #     name = "categories"
-    #     url = "/categories/"
-    #     weight = 40
-  #  [[menu.main]]
-  #      identifier = "boobs+"
-  #      name = "boobs+"
-  #      url = "/boobs+/"
-  #      weight = 50
+
 [params]
-  description = "Tech tips from a stable genius with helpful information for coding learners with tips on terminal commands, bash, css, seo, web development, web design, browser tools."
-  ShowShareButtons = true
-#   API_KEY = "5ca8fac10fc041c9a1593a1145c4ae23"
+  description = "Tech tips, songs, and the latest news that only a truly stable genius is brave enough to cover. Tips on terminal commands, bash, css, seo, web development, web design, browser tools."
+  ShowShareButtons = false
+
 
 [params.netlify]
     honeypot = true
@@ -69,8 +61,8 @@ Content = "A collection of tech notes I've taken while learning new things."
     #     name = "dev"
     #     url = "https://dev.to/bafflingscience"
     # [[params.socialIcons]]
-    #     name = "pinterest"
-    #     url = "https://www.pinterest.com/bafflingscience"
+    #   name = "pinterest"
+    #   url = "https://www.pinterest.com/bafflingscience"
     [[params.socialIcons]]
         name = "instagram"
         url = "https://instagram.com/thedavidsofusa"
@@ -89,7 +81,7 @@ Content = "A collection of tech notes I've taken while learning new things."
 
 #Privacy Settings
 [privacy.googleAnalytics]
-anonymizeIP = false
+anonymizeIP = true
 disable = false
 respectDoNotTrack = true
 useSessionStorage = false
@@ -106,7 +98,7 @@ enableDNT = false
 simple = false
 [privacy.youtube]
 disable = false
-privacyEnhanced = false
+privacyEnhanced = true
 
 [mediaTypes]
 [mediaTypes."application/json"]
@@ -115,7 +107,3 @@ suffixes = ["JSON"]
 [outputFormats]
 [outputFormats.HTML]
 mediaType = "text/html"
-
-# outputs = ["json"]
-# section = ["json"]
-# home = ["json"]

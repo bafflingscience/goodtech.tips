@@ -1,10 +1,10 @@
 ---
 title: "Lens of an Idiot"
 draft: false
-date: 2021-03-15T12:49:10-05:00
+date: 2021-06-25T12:49:10-05:00
 tags: ["Google", "Google Analytics", "Google Tag Manager", "Google Search Console", "Google Lighthouse", 
-"SEO", "Make Money Online", "Affiliate Marketing", "best practices", "How to Start", "Jeopardy", "stovepipe hat", "hats on amazon", "problem solving", "Sisyphus", "moronic", "dumb", "idiot", "Doestevsky"]
-categories: ["Marketing", "SEO", "Advertising", "Mythology", "Literature"]
+"SEO", "Make Money Online", "Affiliate Marketing", "best practices", "How to Start", "Jeopardy", "stovepipe hat", "hats on amazon", "problem solving", "Sisyphus", "moronic", "dumb", "idiot", "Doestevsky", "adhd", "squirrel", "shopping", "men's fashion", "formal headwear"]
+categories: ["Fashion", "Marketing", "SEO", "Advertising", "Mythology", "Literature"]
 summary: "The SHOCKING TRUTH about what Google Analytics, Sisyphus, and Stove Pipe Hats have in common"
 ---
 

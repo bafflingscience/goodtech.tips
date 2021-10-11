@@ -1,8 +1,7 @@
 ---
-title: "Firefox Add-Ons for 150 or Higher IQ Individuals ONLY"
-date: 2021-03-15T23:58:03-05:00
-draft: true
-author: Doc Clegg
+title: "Firefox Add-Ons for 150 IQ or Higher Individuals ONLY"
+date: 2021-10-08
+draft: false
 tags: ["browser extensions", "chrome extensions", "security", "firefox add-ons", "firefox add-ons", "browser plugins", "how-to", "ad-blocker", "password manager", "last pass", "dark mode", "dark reader", "axe", "dev tools", "web development", "web design", "download from browser", "seo", "keyword research tool", "keywords", "affiliate marketing", "affiliate partners"]
 categories: ["Technology", "How-To", "SEO", "Web Development"]
 summary: "Check out the Add-Ons on this guy! Hey sizzle chest, I gotchya add-ons right here!"
@@ -13,30 +12,33 @@ summary: "Check out the Add-Ons on this guy! Hey sizzle chest, I gotchya add-ons
 *I realized while making this list that I may have an issue with add-on hoarding*
 
 
-### [LastPass](https://lastpass.com)
+### [BitWarden](https://bitwarden.com/)
 
-LastPass puts you in control of your online life – making it easy to keep your critical information safe and secure so you can access it whenever you want, wherever you are. Save all your passwords, addresses, credit cards and more in your secure vault and LastPass will automatically fill in your information when you need it.
+Bitwarden, Inc. is the parent company of 8bit Solutions LLC.
 
-Stop wasting time  getting locked out of accounts or filling  passwords and  forms online – LastPass  simplifies your daily online tasks  while keeping you  and your family  secure.  
+NAMED BEST PASSWORD MANAGER BY THE VERGE, U.S. NEWS & WORLD REPORT, CNET, AND MORE.
 
-All your data, where you need it:
-- Store usernames and passwords and LastPass will log you in automatically
-- Fill forms quickly by saving your addresses, credit card numbers and more
-- Save passports, insurance cards and anything else you want to keep safe
-- All your data is available on any device for free
-- Anything you save on one device is instantly synced on all your other devices
+Manage, store, secure, and share unlimited passwords across unlimited devices from anywhere. Bitwarden delivers open source password management solutions to everyone, whether at home, at work, or on the go.
 
-Protect yourself from breaches:
-- LastPass Security Dashboard provides and overview of your weak and reused passwords and how to improve them
-- LastPass dark web monitoring alerts you if your information is at risk
-- Generate secure passwords to replace weak ones
-- Protect your LastPass account with multifactor authentication
+Generate strong, unique, and random passwords based on security requirements for every website you frequent.
 
-Simplify your life:
-- Never forget another password
-- Passwords are auto-filled for you as you go to your sites - less typing!
-- Securely share your passwords with friends and family
-- Only worry about one master password
+Bitwarden Send quickly transmits encrypted information --- files and plaintext -- directly to anyone.
+
+Bitwarden offers Teams and Enterprise plans for companies so you can securely share passwords with colleagues.
+
+Why Choose Bitwarden:
+
+World-Class Encryption
+Passwords are protected with advanced end-to-end encryption (AES-256 bit, salted hashtag, and PBKDF2 SHA-256) so your data stays secure and private.
+
+Built-in Password Generator
+Generate strong, unique, and random passwords based on security requirements for every website you frequent.
+
+Global Translations
+Bitwarden translations exist in 40 languages and are growing, thanks to our global community.
+
+Cross-Platform Applications
+Secure and share sensitive data within your Bitwarden Vault from any browser, mobile device, or desktop OS, and more.
 
 ---
 

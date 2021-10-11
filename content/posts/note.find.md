@@ -1,12 +1,12 @@
 ---
 title: "Using the `find` command to find files and folders"
-date: 2021-01-13T12:37:13-05:00
+date: 2021-10-03T12:37:13-05:00
 draft: false
 weight: 2
 enableEmoji: true
 enableToc: true
 params:
-   ShowShareButtons: true
+   ShowShareButtons: false
 categories: ["Technology", "Web Development", "How To"]
 tags: ["bash", "zsh", "terminal", "linux", "macOS", "wsl", "debian", "find", "terminal commands", "programming", "how-to", "learn to code", "self-taught", "autodidact", "web development", "system admin", "fzf", "jdupes", "alan resnick", "put it on your desktop"]
 summary: "All things are difficult before they're easy"

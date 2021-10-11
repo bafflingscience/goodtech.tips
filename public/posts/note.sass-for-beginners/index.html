@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Sass for Beginners | g o o d t e c h . t i p s</title>
+
+<meta name="keywords" content="sass, scss, css, style, web design, front-end" />
+<meta name="description" content="Some notes on Sass.">
+<meta name="author" content="">
+<link rel="canonical" href="https://goodtech.tips/posts/note.sass-for-beginners/" />
+<link href="/assets/css/stylesheet.min.fb486181801a137a9f7290fe487ba8eb52ed1d0ae2d0d633376edd5a6c2a5767.css" integrity="sha256-&#43;0hhgYAaE3qfcpD&#43;SHuo61LtHQri0NYzN27dWmwqV2c=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://goodtech.tips/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://goodtech.tips/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://goodtech.tips/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://goodtech.tips/apple-touch-icon.png">
+<link rel="mask-icon" href="https://goodtech.tips/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.82.1" />
+
+
+<script data-ad-client="ca-pub-8437415714225854" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PFRPSH864F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PFRPSH864F');
+</script>
+<meta property="og:title" content="Sass for Beginners" />
+<meta property="og:description" content="Some notes on Sass." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://goodtech.tips/posts/note.sass-for-beginners/" />
+<meta property="article:published_time" content="2021-02-27T21:47:28-05:00" />
+<meta property="article:modified_time" content="2021-02-27T21:47:28-05:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sass for Beginners"/>
+<meta name="twitter:description" content="Some notes on Sass."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Sass for Beginners",
+  "name": "Sass for Beginners",
+  "description": "Some notes on Sass.",
+  "keywords": [
+    "sass", "scss", "css", "style", "web design", "front-end"
+  ],
+  "articleBody": "Statements Universal Statements These statements can be used anywhere in a Sass stylesheet\n Variable declarations, $var: avariable Flow control at-rules, @if and @each The @error, @warn, @debug rules.  CSS Statements These statements produce CSS. They can be used anywhere except within a @function\n Style rules, like h1 CSS at-rules, @media, and @font-facec Mixins using @include The @at-root rule.  Top-Level Statements These statements can only be used at the top level of a stylesheet or nested within a CSS statement at the top level:\n Module loads, using @use Imports, @import Mixin definitions, using @mixin Function definitions using @function  Other Statements  Property declarations like width: 100px may only be used within style rules and some CSS at-rules The @extend rule may only be used within style rules  Expressions An expression is anything that goes on the right-hand side of a property or variable declaration. Each expression produces a value. Any valid CSS property value is also a Sass expression, but Sass expressions are much more powerful than plain CSS values. They’re passed as arguments to mixins and functions, used for control flow with the @if rule, and manipulated using arithmetic. We call Sass’s expression syntax SassScript.\nLiterals The simples expressions represent static values:\n Numbers Strings Colors Booleans Null Lists: may be separated by spaces or commas, which may be enclosed in square brackets, or not. like 1.5em 1em 0 2em, Helvetica, Arial, san-serif, or [coll-start]. Maps: associate key value pairs, like (\"background\": red, \"foreground\": pink).  Operations Sass defines syntax for a number of operations\n ==and!= are used to check if two values are the same. +,=,*,% do math things = compare things and, or, not Sass considers every value ‘true’ except for ‘false’ and ‘null’. +, -, / concatenate strings ( and ) can explicitly control the precedence order of operations.  Other Expressions  Variables, $var Function calls, nth($list, 1) or var(--main-bg-color), which may call Sass core library functions or user-defined functions, or which may be compiled directly to CSS Special functions, calc(1px + 100%) or url(https://myapp.com/assets/logo.png), that have their own unique parsing rules. The parent selector, \u0026 The value !important, which is parsed as an unquoted string.  Comments /* */ - Multiple line comments (Loud comments), are compiled to CSS\n// - Single line comment (Silent comments), are not compiled to CSS\nBy default, multi-line comments are stripped from the CSS in compressed mode. If a comment begins with /!, though, it will always be included in the CSS output.\nDocumentation Comments When writing style libraries using Sass, you can use comments to document the mixins, functions, variables, and placeholder selectors that your library provides, as well as the library itself. These are comments are read by the SassDoc tool, which uses them to generate beautiful documentation. Check out the Susy grid engine’s documentation to see it in action!\nDocumentation comments are silent comments, written with three slashes (///) directly above the thing you’re documenting. SassDoc parses text in the comments as Markdown, and supports many useful annotations to describe it in detail.\n SCSS Sass  /// Computes an exponent. /// /// @param {number} $base /// The number to multiply by itself. /// @param {integer (unitless)} $exponent /// The number of `$base`s to multiply together. /// @return {number} `$base` to the power of `$exponent`. @function pow($base, $exponent) $result: 1 @for $_ from 1 through $exponent $result: $result * $base @return $result Variables Sass variables are assigned with $.\nVariables make it possible to reduce repetition, do complex math, configure libraries, and other stuff.\nA variable declaration is written $variable: expression. Variables can be declared anywhere. To use a variable, just include it in a value.\n$base-color: #c58y $border-dark: rgba($base-color, 0.88) .alert border: 1px solid $border-dark CSS Variables vs Sass Variables  Sass variables are all compiled by Sass. CSS variables are included in the CSS output. CSS variables can have different values for different elements, but Sass variables only have one value at a time. Sass variables are imperative, which means if you use a variable and then change its value, the earlier use will stay the same. CSS variables are declarative, which means if you change the value, it’ll affect both earlier uses and later uses.  $variable: value 1 .rule-1 value: $variable $variable: value 2 .rule-2 value: $variable @use Sass Module System Update | Down with @import\nsassy\nFuck @import, globalist illuminati scum.\n@use only executes a stylesheet and includes its stylesheet once.\nPartials\nIf stylesheet begins with _ or -, then @use will evaluate the stylesheet as private\n@use loads mixins, functions, and variables from other Sass stylesheets, and combines CSS from multiple stylesheets together. Stylesheets loaded by @use are called “modules”. Sass also provides build-in modules full of useful functions.\nThe simplest @use rule is written @use \"url\", which loads the module at the given URL. Any styles loaded this way will be included exactly once in the compiled CSS output, no matter how many times those styles are loaded.\n!! A stylesheet’s @use rules must come before any rules other than @forward, including style rules. However, you can declare variables before @use rules to use when configuring modules.\n// foundation/_code.sass code padding: .25em line-height: 0 // foundation/_lists.sass ul, ol text-alighn: left \u0026 \u0026 padding: bottom: 0 left: 0 // style.sass @use 'foundation/code' @use 'foundation/lists' Loading Members You can access variables, functions, and mixins from another module by writing ., .(), or @include .(). By default, the namespace is just the last component of the module’s URL.\n@use \"colors\"; .element { background-color: colors.$body-bg; } Members (variables, functions, and mixins) loaded with @use are only visible in the stylesheet that loads them. Other stylesheets will need to write their own @use rules if they also want to access them. This helps make it easy to figure out exactly where each member is coming from. If you want to load members from many files at once, you can use the @forward rule to forward them all from one shared file.\nBecause @use adds namespaces to member names, it’s safe to choose very simple names like $radius or $width when writing a stylesheet. This is different from the old @import rule, which encouraged that users write long names like $mat-corner-radius to avoid conflicts with other libraries, and it helps keep your stylesheets clear and easy to read!\n// src/_corners.sass $radius: 3px @mixin rounded border-radius: $radius @mixin Vendor prefixes like -webkit-transform, -ms-transform are a good use of @mixins.\n@mixintransform($property) { -webkit-transform: $property; -ms-transform: $property; transform: $property; } .box { @includetransform(rotate(30deg)); } To create a @mixin you give it a name. The one above is named ‘transform’. Also shown is the use of the variable $property, inside the parentheses. So we can pass in any transform we like. After you create your mixin, you can then use it as a css declaration starting with @include followed by the name of the mixin.\nExtend / Inheritance @extend lets you share a set of CSS properties from one selector to another. It helps keep your Sass DRY.\nA 'Placeholder' class is a special type of class that only prints when it is extended by @extend, and can help keep your compiled CSS neat and clean.\n/* This CSS will print because %message-shared is extended. */ %message-shared { border: 1px solid #ccc; padding: 10px; color: #333; } // This CSS won't print because %equal-heights is never extended. %equal-heights { display: flex; flex-wrap: wrap; } .message { @extend %message-shared; } .success { @extend %message-shared; border-color: green; } .error { @extend %message-shared; border-color: red; } .warning { @extend %message-shared; border-color: yellow; } What the above code does is tells .message, .success, .error, and .warning to behave just like %message-shared. That means anywhere that %message-shared shows up, .message, .success, .error, \u0026 .warning will too. The magic happens in the generated CSS, where each of these classes will get the same CSS properties as %message-shared. This helps you avoid having to write multiple class names on HTML elements.\nYou can extend most simple CSS selectors in addition to placeholder classes in Sass, but using placeholders is the easiest way to make sure you aren’t extending a class that’s nested elsewhere in your styles, which can result in unintended selectors in your CSS.\nNote that CSS %equal-heights isn’t generated, because %equal-heights is never extended.\nOperators Doing math in your CSS is very helpful. Sass has a handful of standard math operators like +, -, *, /, and %. In our example we’re going to do some simple math to calculate widths for an aside \u0026 article.\n.container { width: 100%; } article[role=\"main\"] { float: left; width: 600px / 960px * 100%; } aside[role=\"complementary\"] { float: right; width: 300px / 960px * 100%; } We’ve created a very simple fluid grid, based on 960px. Operations in Sass let us do something like take pixel values and convert them into percentages without much hassle.\nStyle Rules Nesting Sass will automatically combine the outer rule’s selector with the inner rule’s\nDon’t nest too deep though, it takes more bandwidth to serve your CSS and it takes more work for the browser to render it.\nnav ul margin: 0 padding: 0 list-style: none li display: inline-block a display: block padding: 6px 12px text-decoration: none Selector Combinators You can nest selectors that use combinators  as well. You can put the combinator at the end of the outer selector, at the beginning of the inner selector, or even all on its own in between the two.\nul  li list-style-type: none h2 + p border-top: 1px solid gray p ~ span opacity: 0.8 Interpolation A property’s name can include interpolation, which makes it possible to dynamically generate properties as needed. you can even interpolate the entire property name!\n@mixinprefix($property, $value, $prefixes) @each $prefix in $prefixes -#{$prefix}-#{property}: $value .gray @include prefix(filter, grayscale(50%), moz webkit) Nesting Many CSS properties start with the same prefix that acts as a kind of namespace. For example, font-family, font-size, and font-weight all start with font-. Sass makes this easier and less redundant by allowing property declarations to be nested. The outer property names are added to the inner, separated by a hyphen.\n.enlarge font-size: 14px transition: property: font-size duration: 4s delay: 2s \u0026:hover font-size: 36px Property Declarations Parent Selector Placeholder Selectors ",
+  "wordCount" : "1695",
+  "inLanguage": "en",
+  "datePublished": "2021-02-27T21:47:28-05:00",
+  "dateModified": "2021-02-27T21:47:28-05:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://goodtech.tips/posts/note.sass-for-beginners/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "g o o d t e c h . t i p s",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://goodtech.tips/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://goodtech.tips" accesskey="h" title="g o o d t e c h . t i p s (Alt + H)">g o o d t e c h . t i p s</a>
+            <span class="logo-switches">
+                <span class="theme-toggle" title="(Alt + T)">
+                    <a id="theme-toggle" accesskey="t">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </a>
+                </span>
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://goodtech.tips/music/" title="g o o d . m u s i c">
+                    <span>music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://goodtech.tips/news/" title="Hard Hitting News">
+                    <span>news</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://goodtech.tips/tags/" title="theTags_Collection">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://goodtech.tips/contact/" title="Contact">
+                    <span>contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://goodtech.tips/learn/" title="Videos with &#39;learn&#39; in the title">
+                    <span>learn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://goodtech.tips/posts/" title="blog">
+                    <span>blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://goodtech.tips/categories/" title="Categories">
+                    <span>categories</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Sass for Beginners
+    </h1>
+    <div class="post-description">
+      
+    </div>
+    <div class="post-meta">February 27, 2021
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<h2 id="statements">Statements<a hidden class="anchor" aria-hidden="true" href="#statements">#</a></h2>
+<h3 id="universal-statements">Universal Statements<a hidden class="anchor" aria-hidden="true" href="#universal-statements">#</a></h3>
+<p>These statements can be used anywhere in a Sass stylesheet</p>
+<ul>
+<li>Variable declarations, <code>$var: avariable</code></li>
+<li>Flow control at-rules, <code>@if and @each</code></li>
+<li>The <code>@error</code>, <code>@warn</code>, <code>@debug</code> rules.</li>
+</ul>
+<h3 id="css-statements">CSS Statements<a hidden class="anchor" aria-hidden="true" href="#css-statements">#</a></h3>
+<p>These statements produce CSS. They can be used anywhere except within a <code>@function</code></p>
+<ul>
+<li>Style rules, like <code>h1</code></li>
+<li>CSS at-rules, <code>@media</code>, and <code>@font-facec</code></li>
+<li>Mixins using <code>@include</code></li>
+<li>The <code>@at-root</code> rule.</li>
+</ul>
+<h3 id="top-level-statements">Top-Level Statements<a hidden class="anchor" aria-hidden="true" href="#top-level-statements">#</a></h3>
+<p>These statements can only be used at the top level of a stylesheet or nested within a CSS statement at the top level:</p>
+<ul>
+<li>Module loads, using <code>@use</code></li>
+<li>Imports, <code>@import</code></li>
+<li>Mixin definitions, using <code>@mixin</code></li>
+<li>Function definitions using <code>@function</code></li>
+</ul>
+<h3 id="other-statements">Other Statements<a hidden class="anchor" aria-hidden="true" href="#other-statements">#</a></h3>
+<ul>
+<li>Property declarations like <code>width: 100px</code> may only be used within style rules and some CSS at-rules</li>
+<li>The <code>@extend</code> rule may only be used within style rules</li>
+</ul>
+<h2 id="expressions">Expressions<a hidden class="anchor" aria-hidden="true" href="#expressions">#</a></h2>
+<p><strong>An expression is anything that goes on the right-hand side of a property or variable declaration</strong>. Each expression produces a value. Any valid CSS property value is also a Sass expression, but Sass expressions are much more powerful than plain CSS values. They&rsquo;re passed as arguments to mixins and functions, used for control flow with the <code>@if</code> rule, and manipulated using arithmetic. We call Sass&rsquo;s expression syntax SassScript.</p>
+<h4 id="literals">Literals<a hidden class="anchor" aria-hidden="true" href="#literals">#</a></h4>
+<p>The simples expressions represent static values:</p>
+<ul>
+<li>Numbers</li>
+<li>Strings</li>
+<li>Colors</li>
+<li>Booleans</li>
+<li>Null</li>
+<li>Lists: may be separated by spaces or commas, which may be enclosed in square brackets, or not. like <code>1.5em 1em 0 2em, Helvetica, Arial, san-serif,</code> or <code>[coll-start]</code>.</li>
+<li>Maps: associate key value pairs, like <code>(&quot;background&quot;: red, &quot;foreground&quot;: pink)</code>.</li>
+</ul>
+<h4 id="operations">Operations<a hidden class="anchor" aria-hidden="true" href="#operations">#</a></h4>
+<p>Sass defines syntax for a number of operations</p>
+<ul>
+<li><code>==and!=</code> are used to check if two values are the same.</li>
+<li><code>+,=,*,%</code> do math things</li>
+<li><code>&lt;,&lt;=,?,&gt;=</code> compare things</li>
+<li><code>and, or, not</code> Sass considers every value &lsquo;true&rsquo; except for &lsquo;false&rsquo; and &lsquo;null&rsquo;.</li>
+<li><code>+, -, /</code> concatenate strings</li>
+<li><code>( and )</code> can explicitly control the precedence order of operations.</li>
+</ul>
+<h4 id="other-expressions">Other Expressions<a hidden class="anchor" aria-hidden="true" href="#other-expressions">#</a></h4>
+<ul>
+<li>Variables, <code>$var</code></li>
+<li>Function calls, <code>nth($list, 1)</code> or <code>var(--main-bg-color)</code>, which may call Sass core library functions or user-defined functions, or which may be compiled directly to CSS</li>
+<li>Special functions, <code>calc(1px + 100%)</code> or <code>url(https://myapp.com/assets/logo.png)</code>, that have their own unique parsing rules.</li>
+<li>The parent selector, <code>&amp;</code></li>
+<li>The value <code>!important</code>, which is parsed as an unquoted string.</li>
+</ul>
+<h3 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h3>
+<p><code>/* */</code> - Multiple line comments (Loud comments), are compiled to CSS</p>
+<p><code>//</code> - Single line comment (Silent comments), are not compiled to CSS</p>
+<p>By default, multi-line comments are stripped from the CSS in <strong>compressed mode</strong>. If a comment begins with <code>/!</code>, though, it will always be included in the CSS output.</p>
+<h2 id="documentation-comments">Documentation Comments<a hidden class="anchor" aria-hidden="true" href="#documentation-comments">#</a></h2>
+<p>When writing style libraries using Sass, you can use comments to document the <a href="https://sass-lang.com/documentation/at-rules/mixin"  target="_blank" rel="noopener"
+    >mixins</a>, <a href="https://sass-lang.com/documentation/at-rules/function"  target="_blank" rel="noopener"
+    >functions</a>, <a href="https://sass-lang.com/documentation/variables"  target="_blank" rel="noopener"
+    >variables</a>, and <a href="https://sass-lang.com/documentation/style-rules/placeholder-selectors"  target="_blank" rel="noopener"
+    >placeholder selectors</a> that your library provides, as well as the library itself. These are comments are read by the <a href="http://sassdoc.com/"  target="_blank" rel="noopener"
+    >SassDoc</a> tool, which uses them to generate beautiful documentation. Check out <a href="http://oddbird.net/susy/docs/index.html"  target="_blank" rel="noopener"
+    >the Susy grid engine</a>’s documentation to see it in action!</p>
+<p>Documentation comments are silent comments, written with three slashes (<code>///</code>) directly above the thing you’re documenting. SassDoc parses text in the comments as <a href="https://www.markdownguide.org/getting-started"  target="_blank" rel="noopener"
+    >Markdown</a>, and supports many useful <a href="http://sassdoc.com/annotations/"  target="_blank" rel="noopener"
+    >annotations</a> to describe it in detail.</p>
+<ul>
+<li><a href="https://sass-lang.com/documentation/syntax/comments#example-3-scss"  target="_blank" rel="noopener"
+    >SCSS</a></li>
+<li><a href="https://sass-lang.com/documentation/syntax/comments#example-3-sass"  target="_blank" rel="noopener"
+    >Sass</a></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#75715e">/// Computes an exponent.
+</span><span style="color:#75715e">///
+</span><span style="color:#75715e">/// @param {number} $base
+</span><span style="color:#75715e">///   The number to multiply by itself.
+</span><span style="color:#75715e">/// @param {integer (unitless)} $exponent
+</span><span style="color:#75715e">///   The number of `$base`s to multiply together.
+</span><span style="color:#75715e">/// @return {number} `$base` to the power of `$exponent`.
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">@function</span> <span style="color:#f92672">pow</span><span style="color:#f92672">(</span><span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">base</span><span style="color:#f92672">,</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">exponent</span><span style="color:#f92672">)</span>
+  <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">result</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">1</span>
+  <span style="color:#f92672">@</span><span style="color:#f92672">for</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">_</span> <span style="color:#f92672">from</span> <span style="color:#f92672">1</span> <span style="color:#f92672">through</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">exponent</span>
+    <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">result</span><span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">result</span> <span style="color:#f92672">*</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">base</span>
+
+  <span style="color:#f92672">@</span><span style="color:#f92672">return</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">result</span>
+</code></pre></div><h2 id="variables">Variables<a hidden class="anchor" aria-hidden="true" href="#variables">#</a></h2>
+<p>Sass variables are assigned with <code>$</code>.</p>
+<p>Variables make it possible to reduce repetition, do complex math, configure libraries, and other stuff.</p>
+<p>A variable declaration is written <code>$variable: expression</code>. Variables can be declared anywhere. To use a variable, just include it in a value.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss">$base-color<span style="color:#f92672">:</span> <span style="color:#ae81ff">#c58y</span>
+$border-dark<span style="color:#f92672">:</span> <span style="color:#a6e22e">rgba</span>($base-color<span style="color:#f92672">,</span> <span style="color:#ae81ff">0</span><span style="color:#ae81ff">.88</span>)
+
+<span style="color:#f92672">.</span>alert
+    <span style="color:#66d9ef">border</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> $border-dark
+</code></pre></div><h2 id="css-variables-vs-sass-variables">CSS Variables vs Sass Variables<a hidden class="anchor" aria-hidden="true" href="#css-variables-vs-sass-variables">#</a></h2>
+<ul>
+<li>Sass variables are all compiled by Sass. CSS variables are included in the CSS output.</li>
+<li>CSS variables can have different values for different elements, but Sass variables only have one value at a time.</li>
+<li>Sass variables are imperative, which means if you use a variable and then change its value, the earlier use will stay the same.</li>
+<li>CSS variables are declarative, which means if you change the value, it&rsquo;ll affect both earlier uses and later uses.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss">$variable<span style="color:#f92672">:</span> value <span style="color:#ae81ff">1</span>
+<span style="color:#f92672">.</span>rule-1
+    value<span style="color:#f92672">:</span> $variable
+
+$variable<span style="color:#f92672">:</span> value <span style="color:#ae81ff">2</span>
+<span style="color:#f92672">.</span>rule-2
+    value<span style="color:#f92672">:</span> $variable
+</code></pre></div><h2 id="use">@use<a hidden class="anchor" aria-hidden="true" href="#use">#</a></h2>
+<p><a href="https://www.youtube.com/watch?v=tLqqi5gyxQg"  target="_blank" rel="noopener"
+    >Sass Module System Update | Down with <code>@import</code></a></p>
+<p><a href="https://sass-lang.com/documentation/at-rules/use#configuration"  target="_blank" rel="noopener"
+    >sassy</a></p>
+<p>Fuck <code>@import</code>, globalist illuminati scum.</p>
+<p>@use only executes a stylesheet and includes its stylesheet once.</p>
+<p><strong>Partials</strong></p>
+<p>If stylesheet begins with <code>_</code> or <code>-</code>, then <code>@use</code> will evaluate the stylesheet as private</p>
+<p><code>@use</code> loads <code>mixins</code>, <code>functions</code>, and <code>variables</code> from other Sass stylesheets, and combines CSS from multiple stylesheets together. Stylesheets loaded by <code>@use</code> are called &ldquo;modules&rdquo;. Sass also provides <code>build-in modules</code> full of useful functions.</p>
+<p>The simplest <code>@use</code> rule is written <code>@use &quot;url&quot;</code>, which loads the module at the given URL. Any styles loaded this way will be included exactly once in the compiled CSS output, no matter how many times those styles are loaded.</p>
+<p>!! A stylesheet&rsquo;s <code>@use</code> rules must come before any rules other than <code>@forward</code>, including <code>style rules</code>. However, you can declare variables before <code>@use</code> rules to use when <code>configuring modules</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#75715e">// foundation/_code.sass
+</span><span style="color:#75715e"></span><span style="color:#f92672">code</span>
+	<span style="color:#f92672">padding</span><span style="color:#a6e22e">:</span> <span style="color:#a6e22e">.25em</span>
+	<span style="color:#f92672">line-height</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">0</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#75715e">// foundation/_lists.sass
+</span><span style="color:#75715e"></span><span style="color:#f92672">ul</span><span style="color:#f92672">,</span> <span style="color:#f92672">ol</span>
+	<span style="color:#f92672">text-alighn</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">left</span>
+
+	<span style="color:#66d9ef">&amp;</span> <span style="color:#66d9ef">&amp;</span>
+		<span style="color:#f92672">padding</span><span style="color:#a6e22e">:</span>
+			<span style="color:#f92672">bottom</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">0</span>
+			<span style="color:#f92672">left</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">0</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#75715e">// style.sass
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">@use</span> <span style="color:#e6db74">&#39;foundation/code&#39;</span>
+<span style="color:#f92672">@</span><span style="color:#f92672">use</span> <span style="color:#e6db74">&#39;foundation/lists&#39;</span>
+</code></pre></div><h2 id="loading-members">Loading Members<a hidden class="anchor" aria-hidden="true" href="#loading-members">#</a></h2>
+<p>You can access variables, functions, and mixins from another module by writing <code>&lt;namespace&gt;.&lt;variable&gt;</code>, <code>&lt;namespace&gt;.&lt;function&gt;()</code>, or <code>@include &lt;namespace&gt;.&lt;mixin&gt;()</code>. By default, the namespace is just the last component of the module&rsquo;s URL.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#66d9ef">@use</span> <span style="color:#e6db74">&#34;colors&#34;</span>;
+
+<span style="color:#a6e22e">.element</span> {
+    <span style="color:#f92672">background-color</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">colors</span><span style="color:#a6e22e">.</span><span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">body-bg</span>;
+}
+</code></pre></div><p>Members (variables, functions, and mixins) loaded with <code>@use</code> are only visible in the stylesheet that loads them. Other stylesheets will need to write their own <code>@use</code> rules if they also want to access them. This helps make it easy to figure out exactly where each member is coming from. If you want to load members from many files at once, you can use the <code>@forward</code> rule to forward them all from one shared file.</p>
+<p>Because <code>@use</code> adds namespaces to member names, it’s safe to choose very simple names like <code>$radius</code> or <code>$width</code> when writing a stylesheet. This is different from the old <a href="https://sass-lang.com/documentation/at-rules/import"  target="_blank" rel="noopener"
+    ><code>@import</code> rule</a>, which encouraged that users write long names like <code>$mat-corner-radius</code> to avoid conflicts with other libraries, and it helps keep your stylesheets clear and easy to read!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#75715e">// src/_corners.sass
+</span><span style="color:#75715e"></span>$radius<span style="color:#f92672">:</span> <span style="color:#ae81ff">3</span><span style="color:#66d9ef">px</span>
+    
+<span style="color:#f92672">@</span>mixin rounded
+	<span style="color:#66d9ef">border</span><span style="color:#f92672">-</span>radius<span style="color:#f92672">:</span> $radius 
+</code></pre></div><h2 id="mixin">@mixin<a hidden class="anchor" aria-hidden="true" href="#mixin">#</a></h2>
+<p>Vendor prefixes like -webkit-transform, -ms-transform are a good use of <code>@mixin</code>s.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#66d9ef">@mixin</span><span style="color:#a6e22e"> transform</span>($property) {
+  <span style="color:#f92672">-webkit-transform</span><span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">property</span>;
+  <span style="color:#f92672">-ms-transform</span><span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">property</span>;
+  <span style="color:#f92672">transform</span><span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#f92672">property</span>;
+}
+<span style="color:#a6e22e">.box</span> { <span style="color:#66d9ef">@include</span><span style="color:#a6e22e"> transform</span>(<span style="color:#a6e22e">rotate</span>(<span style="color:#ae81ff">30</span><span style="color:#66d9ef">deg</span>)); }
+</code></pre></div><p>To create a <code>@mixin</code> you give it a name. The one above is named &lsquo;transform&rsquo;. Also shown is the use of the variable <code>$property</code>, inside the parentheses. So we can pass in any transform we like. After you create your mixin, you can then use it as a css declaration starting with <code>@include</code> followed by the name of the mixin.</p>
+<h2 id="extend--inheritance">Extend / Inheritance<a hidden class="anchor" aria-hidden="true" href="#extend--inheritance">#</a></h2>
+<p><code>@extend</code> lets you share a set of CSS properties from one selector to another. It helps keep your Sass DRY.</p>
+<p>A <code>'Placeholder'</code> class is a special type of class that only prints when it is extended by <code>@extend</code>, and can help keep your compiled CSS neat and clean.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#75715e">/* This CSS will print because %message-shared is extended. */</span>
+<span style="color:#960050;background-color:#1e0010">%</span><span style="color:#f92672">message-shared</span> {
+  <span style="color:#f92672">border</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">1px</span> <span style="color:#f92672">solid</span> #ccc;
+  <span style="color:#f92672">padding</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">10px</span>;
+  <span style="color:#f92672">color</span><span style="color:#a6e22e">:</span> #333;
+}
+
+<span style="color:#75715e">// This CSS won&#39;t print because %equal-heights is never extended.
+</span><span style="color:#75715e"></span><span style="color:#960050;background-color:#1e0010">%</span><span style="color:#f92672">equal-heights</span> {
+  <span style="color:#f92672">display</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">flex</span>;
+  <span style="color:#f92672">flex-wrap</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">wrap</span>;
+}
+
+<span style="color:#a6e22e">.message</span> {
+  <span style="color:#66d9ef">@extend</span> <span style="color:#960050;background-color:#1e0010">%</span><span style="color:#f92672">message-shared</span>;
+}
+
+<span style="color:#a6e22e">.success</span> {
+  <span style="color:#66d9ef">@extend</span> <span style="color:#960050;background-color:#1e0010">%</span><span style="color:#f92672">message-shared</span>;
+  <span style="color:#f92672">border-color</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">green</span>;
+}
+
+<span style="color:#a6e22e">.error</span> {
+  <span style="color:#66d9ef">@extend</span> <span style="color:#960050;background-color:#1e0010">%</span><span style="color:#f92672">message-shared</span>;
+  <span style="color:#f92672">border-color</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">red</span>;
+}
+
+<span style="color:#a6e22e">.warning</span> {
+  <span style="color:#66d9ef">@extend</span> <span style="color:#960050;background-color:#1e0010">%</span><span style="color:#f92672">message-shared</span>;
+  <span style="color:#f92672">border-color</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">yellow</span>;
+}
+</code></pre></div><p>What the above code does is tells <code>.message</code>, <code>.success</code>, <code>.error</code>, and <code>.warning</code> to behave just like <code>%message-shared</code>. That means anywhere that <code>%message-shared</code> shows up, <code>.message</code>, <code>.success</code>, <code>.error</code>, &amp; <code>.warning</code> will too. The magic happens in the generated CSS, where each of these classes will get the same CSS properties as <code>%message-shared</code>. This helps you avoid having to write multiple class names on HTML elements.</p>
+<p>You can extend most simple CSS selectors in addition to placeholder classes in Sass, but using placeholders is the easiest way to make sure you aren&rsquo;t extending a class that&rsquo;s nested elsewhere in your styles, which can result in unintended selectors in your CSS.</p>
+<p>Note that CSS <code>%equal-heights</code> isn&rsquo;t generated, because <code>%equal-heights</code> is never extended.</p>
+<h2 id="operators">Operators<a hidden class="anchor" aria-hidden="true" href="#operators">#</a></h2>
+<p>Doing math in your CSS is very helpful. Sass has a handful of standard math operators like <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, and <code>%</code>. In our example we&rsquo;re going to do some simple math to calculate widths for an <code>aside</code> &amp; <code>article</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#a6e22e">.container</span> {
+  <span style="color:#f92672">width</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">100</span><span style="color:#960050;background-color:#1e0010">%</span>;
+}
+
+<span style="color:#f92672">article</span><span style="color:#f92672">[</span><span style="color:#f92672">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span><span style="color:#f92672">]</span> {
+  <span style="color:#f92672">float</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">left</span>;
+  <span style="color:#f92672">width</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">600px</span> <span style="color:#f92672">/</span> <span style="color:#f92672">960px</span> <span style="color:#f92672">*</span> <span style="color:#f92672">100</span><span style="color:#960050;background-color:#1e0010">%</span>;
+}
+
+<span style="color:#f92672">aside</span><span style="color:#f92672">[</span><span style="color:#f92672">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;complementary&#34;</span><span style="color:#f92672">]</span> {
+  <span style="color:#f92672">float</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">right</span>;
+  <span style="color:#f92672">width</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">300px</span> <span style="color:#f92672">/</span> <span style="color:#f92672">960px</span> <span style="color:#f92672">*</span> <span style="color:#f92672">100</span><span style="color:#960050;background-color:#1e0010">%</span>;
+}
+</code></pre></div><p>We&rsquo;ve created a very simple fluid grid, based on 960px. Operations in Sass let us do something like take pixel values and convert them into percentages without much hassle.</p>
+<h2 id="style-rules">Style Rules<a hidden class="anchor" aria-hidden="true" href="#style-rules">#</a></h2>
+<h3 id="nesting">Nesting<a hidden class="anchor" aria-hidden="true" href="#nesting">#</a></h3>
+<p>Sass will automatically combine the outer rule&rsquo;s selector with the inner rule&rsquo;s</p>
+<p>Don&rsquo;t nest too deep though, it takes more bandwidth to serve your CSS and it takes more work for the browser to render it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#f92672">nav</span>
+  <span style="color:#f92672">ul</span>
+    <span style="color:#f92672">margin</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">0</span>
+	<span style="color:#f92672">padding</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">0</span>
+	<span style="color:#f92672">list-style</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">none</span>
+
+<span style="color:#f92672">li</span>
+  <span style="color:#f92672">display</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">inline-block</span>
+
+<span style="color:#f92672">a</span>
+  <span style="color:#f92672">display</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">block</span>
+  <span style="color:#f92672">padding</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">6px</span> <span style="color:#f92672">12px</span>
+  <span style="color:#f92672">text-decoration</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">none</span>
+</code></pre></div><h4 id="selector-combinators">Selector Combinators<a hidden class="anchor" aria-hidden="true" href="#selector-combinators">#</a></h4>
+<p>You can nest selectors that use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#combinators#combinators"  target="_blank" rel="noopener"
+    >combinators </a> as well. You can put the combinator at the end of the outer selector, at the beginning of the inner selector, or even all on its own in between the two.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#f92672">ul</span> <span style="color:#f92672">&gt;</span>
+  <span style="color:#f92672">li</span>
+    <span style="color:#f92672">list-style-type</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">none</span>
+
+<span style="color:#f92672">h2</span>
+  <span style="color:#f92672">+</span> <span style="color:#f92672">p</span>
+	<span style="color:#f92672">border-top</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">1px</span> <span style="color:#f92672">solid</span> <span style="color:#f92672">gray</span>
+
+<span style="color:#f92672">p</span>
+ <span style="color:#f92672">~</span>
+  <span style="color:#f92672">span</span>
+	<span style="color:#f92672">opacity</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">0</span><span style="color:#a6e22e">.8</span>
+</code></pre></div><h3 id="interpolation">Interpolation<a hidden class="anchor" aria-hidden="true" href="#interpolation">#</a></h3>
+<p>A property&rsquo;s name can include interpolation, which makes it possible to dynamically generate properties as needed. you can even interpolate the entire property name!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#66d9ef">@mixin</span><span style="color:#a6e22e"> prefix</span>($property<span style="color:#f92672">,</span> $value<span style="color:#f92672">,</span> $prefixes)
+    <span style="color:#f92672">@</span>each $prefix in $prefixes
+    <span style="color:#f92672">-</span><span style="color:#e6db74">#{</span>$prefix<span style="color:#e6db74">}</span><span style="color:#f92672">-</span><span style="color:#e6db74">#{</span>property<span style="color:#e6db74">}</span><span style="color:#f92672">:</span> $value
+<span style="color:#f92672">.</span>gray
+  <span style="color:#f92672">@</span>include <span style="color:#a6e22e">prefix</span>(<span style="color:#66d9ef">filter</span><span style="color:#f92672">,</span> <span style="color:#a6e22e">grayscale</span>(<span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>)<span style="color:#f92672">,</span> moz webkit)
+</code></pre></div><h3 id="nesting-1">Nesting<a hidden class="anchor" aria-hidden="true" href="#nesting-1">#</a></h3>
+<p>Many CSS properties start with the same prefix that acts as a kind of namespace. For example, <code>font-family, font-size</code>, and <code>font-weight</code> all start with <code>font-</code>. Sass makes this easier and less redundant by allowing property declarations to be nested. The outer property names are added to the inner, separated by a hyphen.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#a6e22e">.enlarge</span>
+  <span style="color:#f92672">font-size</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">14px</span>
+  <span style="color:#f92672">transition</span><span style="color:#a6e22e">:</span>
+    <span style="color:#f92672">property</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">font-size</span>
+    <span style="color:#f92672">duration</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">4s</span>
+	<span style="color:#f92672">delay</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">2s</span>
+	
+  <span style="color:#66d9ef">&amp;</span><span style="color:#a6e22e">:hover</span>
+	<span style="color:#f92672">font-size</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">36px</span>
+</code></pre></div><h3 id="property-declarations">Property Declarations<a hidden class="anchor" aria-hidden="true" href="#property-declarations">#</a></h3>
+<h3 id="parent-selector">Parent Selector<a hidden class="anchor" aria-hidden="true" href="#parent-selector">#</a></h3>
+<h3 id="placeholder-selectors">Placeholder Selectors<a hidden class="anchor" aria-hidden="true" href="#placeholder-selectors">#</a></h3>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://goodtech.tips/tags/sass/">sass</a></li>
+      <li><a href="https://goodtech.tips/tags/scss/">scss</a></li>
+      <li><a href="https://goodtech.tips/tags/css/">css</a></li>
+      <li><a href="https://goodtech.tips/tags/style/">style</a></li>
+      <li><a href="https://goodtech.tips/tags/web-design/">web design</a></li>
+      <li><a href="https://goodtech.tips/tags/front-end/">front-end</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://goodtech.tips">g o o d t e c h . t i p s</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+</body>
+
+</html>
