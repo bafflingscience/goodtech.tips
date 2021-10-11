@@ -1,4 +1,4 @@
-# goodtech.tips
+# [g o o d t e c h . t i p s](https://goodtech.tips)
 a tech blog site built using Hugo static site generator.
 
 Light Theme
