@@ -1,7 +1,7 @@
 ---
 title: "Sass for Beginners"
 date: 2021-02-27T21:47:28-05:00
-tags: ["sass", "css", "style", "web design", "front-end"]
+tags: ["sass", "scss", "css", "style", "web design", "front-end"]
 draft: false
 summary: "Some notes on Sass."
 ---
