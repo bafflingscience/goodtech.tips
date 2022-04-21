@@ -1,6 +1,6 @@
 ---
 title: "How to convert a video format in bash with ffmpeg"
-date: 2021-04-21
+date: 2022-04-21
 weight: 2
 draft: false
 tags: ["ffmpeg", "youtube-dl", "bash", "zsh", "terminal", "python", "video", "convert", "mkv", "mp4", "step-by-step"]
