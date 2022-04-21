@@ -6,17 +6,19 @@ draft: false
 showTOC: true
 params:
     ShowShareButtons: true
-tags: ["hacking", "cyber", "security", "threats", "osint", "cisa", "cybersecurity", "dhs", "intelligence", "malware", "pwnd"]
+tags: ["hacking", "cyber", "security", "threats", "osint", "cisa", "cybersecurity", "dhs", "intelligence", "malware", "CompTIA", "Security+", "pwnd"]
 summary: Utilize this free list of open source threat information websites to better defend your organization.
 ---
 
 # Threat Data and Intelligence *online resources*
+*this list was typed nearly verbatim from:*
+*Sybex CompTIA Security+ Study Guide - Exam SYO-601 - Eighth Edition by Mike Chapple and David Seidl*
 
 ## Opent Source Intelligence (OSINT) 
 **Open Source Threat Information Sources:**
 - *senki.org* provides a [list](https://www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds)
 - The Open Threat Exchange operated by AT&T is part of a global community of security proffesionals and threat researchers: [Open Threat Exchange operated by AT&T](https://cybersecurity.att.com/open-threat-exchange).
-- The MISP Threat Sharing project, [www.misp-project.org/feeds](https://www.misp-project.org/feeds), provides standardized threat feeds from many sources, with community-driven collections.
+- The MISP Threat Sharing project, [misp-project.org/feeds](https://www.misp-project.org/feeds), provides standardized threat feeds from many sources, with community-driven collections.
 - [threatfeeds.io](https://threatfeeds.io) hosts a list of open source threat intelligence feeds, with details of when they were added and modified, who maintains them, and other useful information.
 ## Government Sites:
 - The US Cybersecurity and Infrastructure Security Agency (CISA) [www.us-cert.gov](https://www.us-cert.gov).
