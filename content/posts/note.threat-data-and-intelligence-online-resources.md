@@ -14,8 +14,8 @@ summary: Utilize this free list of open source threat information websites to be
 
 ## Opent Source Intelligence (OSINT) 
 **Open Source Threat Information Sources:**
-- *senki.org* provides a list: [www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds](www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds)
-- The Open Threat Exchange operated by AT&T is part of a global community of security proffesionals and threat researchers: [https://cybersecurity.att.com/open-threat-exchange](https://cybersecurity.att.com/open-threat-exchange)
+- *senki.org* provides a [list](www.senki.org/operators-security-toolkit/open-source-threat-intelligence-feeds)
+- The Open Threat Exchange operated by AT&T is part of a global community of security proffesionals and threat researchers: [Open Threat Exchange operated by AT&T](https://cybersecurity.att.com/open-threat-exchange)
 - The MISP Threat Sharing project, [www.misp-project.org/feeds](www.misp-project.org/feeds), provides standardized threat feeds from many sources, with community-driven collections.
 - [threatfeeds.io](threatfeeds.io) hosts a list of open source threat intelligence feeds, with details of when they were added and modified, who maintains them, and other useful information.
 ## Government Sites:
@@ -27,5 +27,5 @@ summary: Utilize this free list of open source threat information websites to be
 - Cisco's threat security site: [tools.cisco.com/security/center/home.x](tools.cisco.com/security/center/home.x), includes an experts' blog with threat research information, as well as the Cisco Talos reputation lookup tool: [talosintelligence.com](talosintelligence.com).
 - The SANS Internet Storm Center: [isc.sans.org](isc.sans.org)
 - VirusShare contains details about malware uploaded to VirusTotal: [virusshare.com](virusshare.com).
-- Spamhaus focuses on block lists, including spam via the Spamhaus Block List (SBL), hijacked and compromised computers on the Exploits Block List (XBL), the Policy Block List (PBL), the Don't Route or Peer lists (DROP) listing netblocks that you may not want to allow traffic from, and a variety of other information: [www.spamhaus.org](www.spamhaus.org).
+- Spamhaus focuses on block lists, including spam via the Spamhaus Block List (SBL), hijacked and compromised computers on the Exploits Block List (XBL), the Policy Block List (PBL), the Don't Route or Peer lists (DROP) listing netblocks that you may not want to allow traffic from, and a variety of other information: [spamhaus.org](www.spamhaus.org).
 
