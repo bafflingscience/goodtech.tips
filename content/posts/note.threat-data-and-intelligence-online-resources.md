@@ -12,7 +12,9 @@ summary: Utilize this free list of open source threat information websites to be
 
 # Threat Data and Intelligence *online resources*
 *this list was typed by Dave, but all credit goes to the source from whom the content was copied:*
+
 *Sybex CompTIA Security+ Study Guide - Exam SYO-601 - Eighth Edition by Mike Chapple and David Seidl*
+
 *Buy it [here](https://www.wiley.com/en-us/CompTIA+Security%2B+Study+Guide:+Exam+SY0+601,+8th+Edition-p-9781119736257), I highly recommend it.*
 
 ## Opent Source Intelligence (OSINT) 
