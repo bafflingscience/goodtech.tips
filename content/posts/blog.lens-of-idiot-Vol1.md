@@ -1,6 +1,6 @@
 ---
 title: "Lens of an Idiot"
-draft: false
+draft: true
 date: 2021-06-25T12:49:10-05:00
 tags: ["Google", "Google Analytics", "Google Tag Manager", "Google Search Console", "Google Lighthouse", 
 "SEO", "Make Money Online", "Affiliate Marketing", "best practices", "How to Start", "Jeopardy", "stovepipe hat", "hats on amazon", "problem solving", "Sisyphus", "moronic", "dumb", "idiot", "Doestevsky", "adhd", "squirrel", "shopping", "men's fashion", "formal headwear"]
