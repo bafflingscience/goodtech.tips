@@ -1,7 +1,7 @@
 ---
 title: "I know, therefore I go - slow."
 date: 2021-10-03
-draft: false
+draft: true
 weight: 5
 tags: ["rhyminosaurus","slow", "fast", "rhyme", "dr suess", "slower", "faster", "fast vs slow", "rabbit vs turtle", "tortoise vs hare", "poetry", "lyrics", "relativity"]
 summary: " Slower is Better. Tis truly, a king among rates of acceleration."
