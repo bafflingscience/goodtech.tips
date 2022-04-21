@@ -32,9 +32,4 @@ Which will result in the video being embedded like this:
 {{< youtube s1CZfoYGASs >}}
 The video is from [thiscolossal.com](https://thiscolossal.com)
 
-
-PS. We live in a wonderous world of imagination
-
-![Alt](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JRjrFWeNOsxJKiZE8wuWuQHaED%26pid%3DApi&f=1 "A picture of a magical land of wondereous imagination")
-
 That is all.
