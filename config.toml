@@ -42,7 +42,7 @@ theme = "Hugo-November-PaperMod"
         url = "/music/"
 
 [params]
-  description = "Tech tips, songs, and the latest news that only a truly stable genius is brave enough to cover. Tips on terminal commands, bash, css, seo, web development, web design, browser tools."
+  description = "Tips and tricks for IT, cybersecurity, bash scripting, web design and development, and useful information that you must have."
   ShowShareButtons = false
 
 
