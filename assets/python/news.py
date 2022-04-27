@@ -3,7 +3,7 @@
 # import codecs
 # from newsapi import NewsApiClient
 
-# api_key = "5ca8fac10fc041c9a1593a1145c4ae23"
+# api_key = ""
 # url = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey={}".format(api_key)
 
 # # fetch data in json format
